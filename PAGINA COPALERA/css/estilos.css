@@ -1,0 +1,277 @@
+/*INDEX*/
+body {
+  font-family: "Dosis", sans-serif;
+  background-color: #f8e4b0;
+}
+
+/*MEDIA QUERIES*/
+@media screen and (min-width: 320px) {
+  .contenedor {
+    flex-direction: column;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "header" 
+    "main"
+    "div" 
+    "footer";
+  }
+  
+}
+/*MENU NAV CON LOGO*/
+.menuPrincipal {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.flexboxCaja {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  font-size: 25px;
+}
+.menuPrincipal ul li {
+  list-style: none; /*sin puntos*/
+  padding-right: 20px;
+}
+.colorHome {
+  color: orangered;
+  font-weight: 10px;
+  font-size: 30px;
+  text-decoration: none;
+}
+.logonaranjoCopal {
+  width: 250px;
+  height: 250px;
+  /*TRANSICION*/
+  transition: width 2s, height 2s;
+  border-radius: 180px;
+}
+/*TRANSICION*/
+.menuPrincipal img:hover {
+  width: 350px;
+  height: 350px;
+}
+/*HORARIO DEBAJO DEL NAV*/
+.horarioCopal {
+  text-align: center;
+  color: white;
+  font-weight: 100;
+  font-size: 30px;
+  background-color: #ff914d;
+  border-radius: 10px;
+}
+/*LLAMADO A LA ACCION*/
+.textoEncarga {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 100;
+  color: white;
+  background-color: #ff914d;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.logoWhatsapp {
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+}
+/*SEGUINOS EN REDES*/
+.moverLoguitos {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 100;
+  color: white;
+  background-color: #f4c553;
+  border-radius: 10px;
+}
+.moverLoguitos img {
+  width: 60px;
+  height: 60px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/*PAGINA SERVICIOS*/
+.motoMami {
+  margin-left: 550px;
+}
+.textoDelivery {
+  text-align: center;
+  color: white;
+  font-weight: 500;
+  font-size: 30px;
+  margin-left: 150px;
+  margin-right: 150px;
+  background-color: #8cc85a;
+  border: dashed 3px green;
+}
+/*PAGINA RECETAS*/
+.librosRecetas {
+  margin-left: 550px;
+}
+
+/*PAGINA CONTACTO*/
+.formularioContacto {
+  margin: 100px;
+  color: white;
+  background-color: #8cc85a;
+  text-align: center;
+}
+.arregloFormulario {
+  margin: 10px;
+  font-size: 30px;
+}
+.dondeEstamos {
+  text-align: center;
+  color: white;
+  font-weight: 100;
+  font-size: 30px;
+  background-color: #ff914d;
+}
+.dondeEstamos1 {
+  margin-left: 440px;
+  border: dashed 3px #ff914d;
+  padding: 30px;
+}
+
+/*IMAGENES DE COPAL*/
+
+.nuestrosPlatos {
+  height: 300px;
+  width: 250px;
+  padding: 40px;
+  background-color: #f4c553;
+  border: dashed 3px orangered;
+  border-radius: 10px;
+}
+
+.calleCopal {
+  width: 150px;
+  height: 300px;
+  border: dashed 3px #8cc85a;
+  margin: 30px;
+  padding: 30px;
+}
+/*.................GRIDS........................................*/
+
+.parrafoUno {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  text-align: center;
+  font-size: 25px;
+  color: orangered;
+  font-weight: 100;
+}
+.fotoUno {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: flex-end;
+}
+.parrafoDos {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  text-align: center;
+  font-size: 25px;
+  color: orangered;
+  font-weight: 100;
+}
+.fotoDos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.mainIndex {
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr;
+  grid-template-rows: 0.5fr 0.5fr;
+  grid-row-gap: 10px;
+  grid-column-gap: 10px;
+  grid-template-areas: "parrafoUno fotoUno" "fotoDos parrafoDos";
+  justify-items: center;
+  align-items: center;
+}
+.parrafoUno {
+  grid-area: parrafoUno;
+  justify-self: center;
+  align-self: center;
+}
+.fotoUno {
+  grid-area: "fotoUno";
+  justify-content: space-evenly;
+  justify-items: center;
+}
+.parrafoDos {
+  grid-area: parrafoDos;
+  justify-self: center;
+  align-self: center;
+}
+.fotoDos {
+  grid-area: "fotoDos";
+  justify-content: space-evenly;
+  justify-items: center;
+}
+/*----GRID EN GALERIA-----------------------------------*/
+/*PAGINA GALERIA*/
+.nuestrasViandas {
+  text-align: center;
+  color: white;
+  font-weight: 100;
+  font-size: 30px;
+  background-color: #8cc85a;
+}
+
+/*flexbox a galeria*/
+.flexgaleriaUno {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.imagenUno,
+.imagenDos,
+.imagenTres {
+  height: 500px;
+  width: 350px;
+  padding: 20px;
+  border: dashed 3px #8cc85a;
+}
+.imagenCuatro,
+.imagenSeis {
+  height: 350px;
+  width: 450px;
+  padding: 10px;
+  border: dashed 3px #8cc85a;
+}
+.imagenCinco {
+  height: 400px;
+  width: 250px;
+  padding: 10px;
+  border: dashed 3px #8cc85a;
+}
+.flexgaleriaDos {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+/*GRID EN GALERIA*/
+.gridgaleriaUno {
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr 0.5fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "flexgaleriaUno flexgaleriaUno flexgaleriaUno"
+    "flexgaleriaDos flexgaleriaDos flexgaleriaDos";
+}
+.flexgaleriaUno {
+  grid-area: flexgaleriaUno;
+  margin: 20px;
+}
+.flexgaleriaDos {
+  grid-area: flexgaleriaDos;
+  margin: 20px;
+}

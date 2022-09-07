@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto</title>
+    <link
+      rel="shortcut icon"
+      href="../multimedia/STICKERS-01.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="../css/estilos.css" />
+    <link rel="stylesheet" href="../css/estilos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;500;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
+  <body>
+    <header></header>
+    <nav class="menuPrincipal">
+      <img class="logonaranjoCopal" src="../multimedia/STICKERS-01.png " />
+      <ul class="flexboxCaja">
+        <li><a class="colorHome" href="../index.html">Home</a></li>
+        <li><a class="colorHome" href="../paginas/servicios.html">Servicios</a></li>
+        <li><a class="colorHome" href="../paginas/recetas.html">Recetas</a></li>
+        <li><a class="colorHome" href="../paginas/galeria.html">Galeria</a></li>
+        <li><a class="colorHome" href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+
+    <h2 class="horarioCopal">Contacto</h2>
+    <form class="formularioContacto" action="">
+      <div class="arregloFormulario">
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" />
+      </div>
+
+      <div class="arregloFormulario">
+        <label for="telefono">Telefono</label>
+        <input type="text" name="telefono" />
+      </div>
+
+      <div class="arregloFormulario">
+        <label for="correo">Correo</label>
+        <input type="email" name="correo" />
+      </div>
+
+      <div class="arregloFormulario">
+        <label for="mensaje">Mensaje</label>
+        <textarea name="mensaje" id="" cols="20" rows="10"></textarea>
+      </div>
+      <div class="arregloFormulario">
+        <label for="opciondeenvio"> Envio a Domicilio?:</label>
+        <br />
+        <input type="radio" value="Si" name="opciondeenvio" /> Si
+        <input type="radio" value="Retiro en Tienda" name="opciondeenvio" />
+        Retiro en Tienda
+      </div>
+      <div class="arregloFormulario">
+        <label for="terminos">Acepto Terminos:</label>
+        <br />
+        <input type="checkbox" value="1" name="terminos" /> Quiero recibir Wsp
+        <input type="checkbox" value="2" name="terminos" /> Quiero recibir
+        Newsletter <input type="checkbox" value="3" name="terminos" /> Acepto
+        Todo
+      </div>
+      <div class="arregloFormulario">
+        <label for="lugardeenvio">Lugar donde recibo mi vianda:</label>
+        <select class="arregloFormulario" name="lugardeenvio">
+          <option value="Empresa">Empresa</option>
+          <option value="Casa">Casa</option>
+          <option value="Edificio">Edificio</option>
+        </select>
+      </div>
+      <input class="arregloFormulario" type="button" value="JS" />
+      <input class="arregloFormulario" type="submit" value="Enviar" />
+      <input class="arregloFormulario" type="reset" value="Borrar" />
+      <br />
+    </form>
+    <h2 class="dondeEstamos">Donde estamos?:</h2>
+    <iframe
+      class="dondeEstamos1"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3422.084050859924!2d-61.56820148504833!3d-30.940216981565403!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9435445400470711%3A0x85a9c2e5fed8ae55!2sCopal%20Cocina%20Vegeratiana!5e0!3m2!1ses-419!2sar!4v1660852083215!5m2!1ses-419!2sar"
+      width="600"
+      height="450"
+      style="border: 50"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+      frameborder="0" 
+    ></iframe>
+    <main class="textoEncarga">
+      <h1 class="textoEncarga">Encargá tu vianda:</h1>
+      <a
+        href="https://api.whatsapp.com/send?phone=543493520455&text=Hola!%20Quisiera%20informacion%20sobre%20las%20viandas.%20Gracias!"
+      >
+        <img class="logoWhatsapp animate__animated animate__bounce animate__infinite	infinite" src="../multimedia/uasaap.png" alt="" />
+      </a>
+    </main>
+    <footer>
+      <div class="moverLoguitos">
+        <h3 class="moverLoguitos">Seguinos en:</h3>
+        <a
+          href="https://www.instagram.com/copal.cocinavegetariana"
+          target="_blank"
+        >
+          <img src="../multimedia/instagram png.png" alt="logoinsta" />
+        </a>
+        <a href="https://www.facebook.com/copalcocinaveg1" target="_blank">
+          <img src="../multimedia/facebook png.png" alt="logoface" />
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
