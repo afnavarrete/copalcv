@@ -24,65 +24,79 @@
     />
   </head>
   <body>
-    <header></header>
-    <nav class="menuPrincipal">
-      <img class="logonaranjoCopal" src="../multimedia/STICKERS-01.png " />
-      <ul class="flexboxCaja">
-        <li><a class="colorHome" href="../index.html">Home</a></li>
-        <li><a class="colorHome" href="../paginas/servicios.html">Servicios</a></li>
-        <li><a class="colorHome" href="../paginas/recetas.html">Recetas</a></li>
-        <li><a class="colorHome" href="../paginas/galeria.html">Galeria</a></li>
-        <li><a class="colorHome" href="contacto.html">Contacto</a></li>
-      </ul>
-    </nav>
+    <header>
+      <nav class="menuPrincipal">
+        <img class="logonaranjoCopal" src="../multimedia/STICKERS-01.png " />
+        <ul class="flexboxCaja">
+          <li><a class="colorHome" href="../index.html">Home</a></li>
+          <li>
+            <a class="colorHome" href="../paginas/servicios.html">Servicios</a>
+          </li>
+          <li>
+            <a class="colorHome" href="../paginas/recetas.html">Recetas</a>
+          </li>
+          <li>
+            <a class="colorHome" href="../paginas/galeria.html">Galeria</a>
+          </li>
+          <li><a class="colorHome" href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
 
     <h2 class="horarioCopal">Contacto</h2>
+
     <form class="formularioContacto" action="">
-      <div class="arregloFormulario">
+      <div>
         <label for="nombre">Nombre</label>
         <input type="text" name="nombre" />
       </div>
 
-      <div class="arregloFormulario">
+      <div class="telefonito">
         <label for="telefono">Telefono</label>
         <input type="text" name="telefono" />
       </div>
 
-      <div class="arregloFormulario">
+      <div class="correito">
         <label for="correo">Correo</label>
         <input type="email" name="correo" />
       </div>
-
-      <div class="arregloFormulario">
-        <label for="mensaje">Mensaje</label>
+      <br />
+      <div class="mensajito">
+        <label for="mensaje" class="mensajitoDos">Mensaje</label>
         <textarea name="mensaje" id="" cols="20" rows="10"></textarea>
       </div>
-      <div class="arregloFormulario">
-        <label for="opciondeenvio"> Envio a Domicilio?:</label>
+      <div>
+        <label for="opciondeenvio">Envio a Domicilio?:</label>
         <br />
         <input type="radio" value="Si" name="opciondeenvio" /> Si
         <input type="radio" value="Retiro en Tienda" name="opciondeenvio" />
         Retiro en Tienda
       </div>
-      <div class="arregloFormulario">
+      <br />
+      <div>
         <label for="terminos">Acepto Terminos:</label>
         <br />
         <input type="checkbox" value="1" name="terminos" /> Quiero recibir Wsp
+        <br />
         <input type="checkbox" value="2" name="terminos" /> Quiero recibir
-        Newsletter <input type="checkbox" value="3" name="terminos" /> Acepto
-        Todo
+        Newsletter <br />
+        <input type="checkbox" value="3" name="terminos" /> Acepto Todo
       </div>
-      <div class="arregloFormulario">
-        <label for="lugardeenvio">Lugar donde recibo mi vianda:</label>
+      <br />
+      <div>
+        <label for="lugardeenvio">Lugar donde recibo mi vianda:</label> <br />
         <select class="arregloFormulario" name="lugardeenvio">
           <option value="Empresa">Empresa</option>
           <option value="Casa">Casa</option>
           <option value="Edificio">Edificio</option>
         </select>
       </div>
-      <input class="arregloFormulario" type="button" value="JS" />
-      <input class="arregloFormulario" type="submit" value="Enviar" />
-      <input class="arregloFormulario" type="reset" value="Borrar" />
+      <br />
+      <div class="botones">
+        <input type="button" value="JS" />
+        <input type="submit" value="Enviar" />
+        <input type="reset" value="Borrar" />
+      </div>
       <br />
     </form>
     <h2 class="dondeEstamos">Donde estamos?:</h2>
@@ -95,14 +109,18 @@
       allowfullscreen=""
       loading="lazy"
       referrerpolicy="no-referrer-when-downgrade"
-      frameborder="0" 
+      frameborder="0"
     ></iframe>
     <main class="textoEncarga">
       <h1 class="textoEncarga">Encargá tu vianda:</h1>
       <a
         href="https://api.whatsapp.com/send?phone=543493520455&text=Hola!%20Quisiera%20informacion%20sobre%20las%20viandas.%20Gracias!"
       >
-        <img class="logoWhatsapp animate__animated animate__bounce animate__infinite	infinite" src="../multimedia/uasaap.png" alt="" />
+        <img
+          class="logoWhatsapp animate__animated animate__bounce animate__infinite infinite"
+          src="../multimedia/uasaap.png"
+          alt=""
+        />
       </a>
     </main>
     <footer>
