@@ -6,15 +6,21 @@ body {
 
 /*MEDIA QUERIES*/
 @media screen and (min-width: 320px) {
-  .contenedor {
-    flex-direction: column;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    grid-template-areas: "header" 
-    "main"
-    "div" 
-    "footer";
+  .mainIndex {
+    grid-template-areas: 
+                      "fotoUno"
+                      "parrafoUno"
+                      "fotoDos"
+                      "parrafoDos";
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr;
+  grid-template-rows: 0.5fr 0.5fr;
+  grid-row-gap: 5px;
+  grid-column-gap: 5px;
+    
   }
+ 
+  
   
 }
 /*MENU NAV CON LOGO*/
@@ -189,9 +195,10 @@ body {
   display: grid;
   grid-template-columns: 0.5fr 0.5fr;
   grid-template-rows: 0.5fr 0.5fr;
-  grid-row-gap: 10px;
-  grid-column-gap: 10px;
-  grid-template-areas: "parrafoUno fotoUno" "fotoDos parrafoDos";
+  grid-row-gap: 5px;
+  grid-column-gap: 5px;
+  grid-template-areas: "parrafoUno fotoUno" 
+                        "fotoDos parrafoDos";
   justify-items: center;
   align-items: center;
 }
@@ -201,7 +208,7 @@ body {
   align-self: center;
 }
 .fotoUno {
-  grid-area: "fotoUno";
+  grid-area: fotoUno;
   justify-content: space-evenly;
   justify-items: center;
 }
@@ -211,7 +218,7 @@ body {
   align-self: center;
 }
 .fotoDos {
-  grid-area: "fotoDos";
+  grid-area: fotoDos;
   justify-content: space-evenly;
   justify-items: center;
 }
