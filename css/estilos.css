@@ -17,6 +17,12 @@ body {
     justify-items: center;
     align-items: center;
   }
+  .parrafoUno{
+    text-align: justify;
+  }
+  .mainIndex img{
+    justify-content: center;
+  }
 }
 /*MEDIA QUERIES a SERVICIOS*/
 .imagenTexto {
