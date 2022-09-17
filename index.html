@@ -24,61 +24,114 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
-    
+    <!--BOOTSTRAP CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
   </head>
-  <body class="bodyIndex">
+  <!--cree esta class:bodyColor para poder darle mi color al body (menos al nav que cree una nueva)-->
+  <body class="bodyColor">
     <!--APLICANDO GRIDS I-->
 
     <header>
-      <!--css-->
-      <nav class="menuPrincipal">
-        <!--IMAGEN-->
-        <img
-          class="logonaranjoCopal"
-          src="multimedia/STICKERS-01.png"
-          alt="logo de copal"
-        />
-        <ul class="flexboxCaja">
-          <li><a class="colorHome" href="index.html">Home</a></li>
-          <li>
-            <a class="colorHome" href="paginas/servicios.html">Servicios</a>
-          </li>
-          <li>
-            <a class="colorHome" href="paginas/recetas.html">Recetas</a>
-          </li>
-          <li>
-            <a class="colorHome" href="paginas/galeria.html">Galeria</a>
-          </li>
-          <li>
-            <a class="colorHome" href="paginas/contacto.html">Contacto</a>
-          </li>
-        </ul>
+      <!--cambie la clase bg-light por bg-durazno para pasar por encima del !important que tenia la clase anterior-->
+      <nav class="navbar navbar-expand-lg bg-durazno navbarNew">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"></a>
+          <img class="redondo" src="multimedia/logo copal bst 160x160px.png" alt="" />
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./paginas/servicios.html"
+                  >Servicios</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./paginas/recetas.html">Recetas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./paginas/galeria.html">Galeria</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./paginas/contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </nav>
       <!--IMAGENES Y CLASS-->
       <h1 class="horarioCopal">
         Horarios de Atención: Lunes a Viernes de 8 a 17hs
       </h1>
     </header>
-
-    <main class="mainIndex">
-      <p class="parrafoUno">
-        Nuestras Tartas son las mas elegidas por nuestros clientes.<br />
-        Elaboramos la masa con harina integral orgánica y semillas. <br />
-        El relleno, de verduras de estación, ricota y especias. <br />
-        Salen todos los Miércoles y podes elegir <br />en opcion menú (con
-        ensalada) o tarta entera.
-      </p>
-      <img
-        src="multimedia/WhatsApp Image 2022-08-23 at 5.23.12 PM (1).jpeg"
-        alt="nuestrosplatos"
-        title="Tarta Integral con Ensalada"
-        class="nuestrosPlatos fotoUno"
-      />
+    <!--cambios con BOOTSTRAP-->
+    <main class="container-fluid">
+      <!--agregue 3 x image cards de BOOTSTRAP y puse mis imagenes y card text-->
+      <div class="row justify-content-evenly text-center m-5">
+        <div class="card" style="width: 18rem">
+          <img
+            src="./multimedia/kitchary.jpeg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <p class="card-text">
+              Kitchari, una especiada mezcla de arroz yamani y porotos mung.
+              Esta comida completa es fácil de digerir, otorga fuerza y
+              vitalidad y nutre todos los tejidos del cuerpo.
+            </p>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img
+            src="./multimedia/superburguer.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <p class="card-text">
+              SuperBurguer Copal, pancito de harinas integrales, medallón casero
+              de legumbres o cereales con mayonesa vegana, lechuga, tomate y
+              acompañada de papas al horno.
+            </p>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img src="./multimedia/tarta.jpeg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <p class="card-text">
+              Tarta Mix Vegetales, masa casera integral con semillas, rellena de
+              verduras de estación y ricota.
+            </p>
+          </div>
+        </div>
+      </div>
     </main>
 
     <div class="textoEncarga">
       <h1 class="textoEncarga">Encargá tu vianda:</h1>
-      <!--ENLACE A WHATSAPP-->
       <a
         href="https://api.whatsapp.com/send?phone=543493520455&text=Hola!%20Quisiera%20informacion%20sobre%20las%20viandas.%20Gracias!"
       >
@@ -91,7 +144,6 @@
     </div>
 
     <footer>
-      <!--ENLACES EXTERNOS-->
       <div class="moverLoguitos">
         <h3 class="moverLoguitos">Seguinos en:</h3>
         <a
@@ -104,6 +156,11 @@
         </a>
       </div>
     </footer>
-    
+    <!-- BOOTSTRAP JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
