@@ -1,7 +1,4 @@
-/*CAMBIOS EN EL NAV CON BOOTSTRAP */
-.bodyColor {
-  background-color: #f8e4b0;
-}
+
 /*cambio de color del nav*/
 .bg-durazno {
   background-color: #f8e4b0;
@@ -25,6 +22,10 @@
   --bs-navbar-brand-hover-color: #ff914d;
   --bs-navbar-toggler-border-color: #ff914d;
 }
+/*CAMBIOS EN EL NAV CON BOOTSTRAP */
+.bodyColor {
+  background-color: #f8e4b0;
+}
 /*TEXTO DE LAS CARDS DEL INDEX*/
 .card-text {
   font-family: "Dosis", sans-serif;
@@ -36,6 +37,7 @@
   background-color: #f8e4b0;
   color: #ff914d;
 }
+/*TEXTO ARRIBA DE REDES SOCIALES EN LAS 5 PAGINAS*/
 .colorWsp {
   font-family: "Dosis", sans-serif;
   text-align: center;
@@ -95,4 +97,13 @@
   justify-content: center;
   align-items: center;
 }
-
+/*ARREGLO DEL TEXTO DE PAG SERVICIOS*/
+.colorTexto{
+  font-family: "Dosis", sans-serif;
+  font-size:larger;
+  color:white;
+  margin-top: 40px;
+  background-color: #ff914d;
+  padding:20px;
+  justify-content: center;
+}
