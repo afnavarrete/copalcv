@@ -4,7 +4,7 @@ body {
   background-color: #f8e4b0;
 }
 
-/*MEDIA QUERIES al INDEX*/
+/*MEDIA QUERIES al INDEX
 @media screen and (max-width: 692px) {
   .bodyIndex main {
     grid-template-columns: 0.5fr 0.5fr;
@@ -23,7 +23,7 @@ body {
   .mainIndex img{
     justify-content: center;
   }
-}
+}*/
 /*MEDIA QUERIES a SERVICIOS*/
 .imagenTexto {
   display: flex;
