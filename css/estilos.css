@@ -1,3 +1,10 @@
+/*cambio de color del nav*/
+.bg-durazno {
+  background-color: #f8e4b0;
+}
+
+
+
 /*INDEX*/
 body {
   font-family: "Dosis", sans-serif;
