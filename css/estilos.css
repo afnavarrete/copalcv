@@ -7,13 +7,14 @@
   background-color: #f8e4b0;
 }
 /*cambios en el  nav*/
-.redondo{
+.redondo {
   border-radius: 150px;
 }
 .navbar {
   font-family: "Dosis", sans-serif;
   font-size: x-large;
 }
+/*COPIE DEL INSPECTOR Y CAMBIE LOS COLORES*/
 .navbar-nav {
   --bs-navbar-color: #ff914d;
   --bs-navbar-hover-color: #ff914d;
@@ -24,6 +25,7 @@
   --bs-navbar-brand-hover-color: #ff914d;
   --bs-navbar-toggler-border-color: #ff914d;
 }
+/*TEXTO DE LAS CARDS DEL INDEX*/
 .card-text {
   font-family: "Dosis", sans-serif;
   font-size: large;
@@ -34,7 +36,7 @@
   background-color: #f8e4b0;
   color: #ff914d;
 }
-.colorWsp{
+.colorWsp {
   font-family: "Dosis", sans-serif;
   text-align: center;
   color: white;
@@ -43,12 +45,10 @@
   background-color: #ff914d;
   border-radius: 100px;
 }
-.iconWsp{
+.iconWsp {
   border-radius: 20px;
 }
-
-
-/*HORARIO DEBAJO DEL NAV*/
+/*HORARIO DEBAJO DEL NAV, ESTO NO ESTA CAMBIADO*/
 .horarioCopal {
   font-family: "Dosis", sans-serif;
   text-align: center;
@@ -58,10 +58,36 @@
   background-color: #ff914d;
   border-radius: 10px;
 }
-
-
-
-
+.fotosGaleria {
+  height: 500px;
+  width: 1040px;
+}
+/*NUEVA CLASS PARA EL FORMULARIO DE CONTACTO*/
+.claseFormu {
+  font-family: "Dosis", sans-serif;
+  color: #ff914d;
+  font-weight: 100;
+  font-size: 30px;
+}
+/*CAMBIOS EN EL BOTON ENVIAR DEL FORMULARIO DE CONTACTO*/
+.botonEnviar {
+  background-color: #ff914d;
+  color: white;
+  border-color: #ff914d;
+  border-radius: 10px;
+  font-family: "Dosis", sans-serif;
+  font-size: 25px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+/*ESTILO AL MAPA*/
+.bordeMapa {
+  border-radius: 15px;
+}
+.claseGaleria{
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
 /*PAGINA RECETAS*/
 .recetasCopaleras {
   display: flex;
@@ -70,100 +96,3 @@
   align-items: center;
 }
 
-/*PAGINA CONTACTO*/
-.formularioContacto {
-  font-weight: 200;
-  color: orangered;
-  text-align: center;
-  margin: 10px;
-  font-size: 30px;
-}
-.correito {
-  margin-left: 10px;
-}
-.telefonito {
-  margin-right: 7px;
-}
-.mensajito {
-  display: flex;
-  justify-items: center;
-  justify-content: center;
-  align-items: center;
-}
-.mensajitoDos {
-  display: flex;
-  justify-items: center;
-  justify-content: center;
-  align-items: center;
-}
-.botones input {
-  font-family: "Dosis", sans-serif;
-  font-size: 20px;
-  color: white;
-  width: 100px;
-  height: 50px;
-  border-radius: 10px;
-  border-color: #8cc85a;
-  background-color: #8cc85a;
-}
-.arregloFormulario {
-  font-family: "Dosis", sans-serif;
-  font-size: 20px;
-  color: white;
-  width: 100px;
-  height: 50px;
-  border-radius: 10px;
-  border-color: orangered;
-  background-color: #8cc85a;
-}
-.dondeEstamos {
-  text-align: center;
-  color: white;
-  font-weight: 100;
-  font-size: 30px;
-  background-color: #ff914d;
-}
-/*FLEX Y MEDIA QUERIE A CONTACTOS*/
-.dondeEstamos1 {
-  display: flex;
-  flex-direction: row;
-  margin-left: 430px;
-  border: dashed 3px #ff914d;
-  padding: 30px;
-}
-
-
-
-/*flexbox a galeria*/
-.flexgaleriaUno {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.imagenUno,
-.imagenDos,
-.imagenTres {
-  height: 500px;
-  width: 350px;
-  padding: 20px;
-  border: dashed 3px #8cc85a;
-}
-.imagenCuatro,
-.imagenSeis {
-  height: 350px;
-  width: 450px;
-  padding: 10px;
-  border: dashed 3px #8cc85a;
-}
-.imagenCinco {
-  height: 400px;
-  width: 250px;
-  padding: 10px;
-  border: dashed 3px #8cc85a;
-}
-.flexgaleriaDos {
-  margin-top: 50px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}

@@ -35,18 +35,37 @@
     <header>
       <!--cambie la clase bg-light por bg-durazno para pasar por encima del !important que tenia la clase anterior-->
       <nav class="navbar navbar-expand-lg bg-durazno navbarNew">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"></a> <img src="../multimedia/logo copal bst 160x160px.png" alt="">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <div class="container-fluid ">
+          <a class="navbar-brand " href="#"></a>
+          <img class="redondo" src="../multimedia/logo copal bst 160x160px.png" alt="" />
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-            <ul class="navbar-nav ">
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="../index.html"
+                  >Home</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="../paginas/servicios.html">Servicios</a>
+                <a class="nav-link" href="../paginas/servicios.html"
+                  >Servicios</a
+                >
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="../paginas/recetas.html">Recetas</a>
@@ -55,49 +74,71 @@
                 <a class="nav-link" href="galeria.html">Galeria</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="../paginas/contacto.html" >Contacto</a>
+                <a class="nav-link" href="../paginas/contacto.html">Contacto</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
     </header>
+
     <h3 class="horarioCopal">Nuestros Productos y Lugar de Produccion</h3>
-
-    <main class="gridgaleriaUno">
-      <section class="flexgaleriaUno">
-        <img
-          class="imagenUno"
-          src="../multimedia/WhatsApp Image 2022-08-28 at 6.14.39 PM.jpeg"
-          alt=""
-        />
-        <img
-          class="imagenDos"
-          src="../multimedia/menuses instagram.jpeg"
-          alt=""
-        />
-        <img
-          class="imagenTres"
-          src="../multimedia/WhatsApp Image 2022-08-28 at 6.12.26 PM.jpeg"
-          alt=""
-        />
-      </section>
-
-      <section class="flexgaleriaDos">
-        <img
-          class="imagenCuatro"
-          src="../multimedia/WhatsApp Image 2022-08-28 at 5.54.52 PM.jpeg"
-          alt=""
-        />
-        <img class="imagenCinco" src="../multimedia/calle copal.jpeg" alt="" />
-        <img
-          class="imagenSeis"
-          src="../multimedia/WhatsApp Image 2022-08-28 at 5.54.52 PM (1).jpeg"
-          alt=""
-        />
-      </section>
+<!--AGREGUE UNAS CARDS PARA LA GALERIA YA QUE LAS FOTOS QUE TENIA ERAN MUY GRANDES PARA EL CARROUSEL-->
+    <main class="container-fluid claseGaleria">
+      <div class="row justify-content-around ">
+        <div class="card" style="width: 18rem">
+          <img src="../multimedia/budin.jpeg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title claseFormu">
+              Budin Vegano de Banana y Nueces
+            </h5>
+            <p class="card-text">
+              Nuestros budines hechos con harinas integrales, azucar mascabo
+              organica y fruta. Humedo, Integral y Vegano.
+            </p>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img src="../multimedia/mila de berenjena.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title claseFormu">Nuestras Viandas</h5>
+            <p class="card-text">Te mostramos como se ve una de nuestras viandas. 50% ensalada, 25% cereales y legumbres, 25% verduras cocidas.
+            </p>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img src="../multimedia/local.jpeg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title claseFormu">Nuestro Local</h5>
+            <p class="card-text">Solo atendemos en modo Takeaway.
+            </p>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img src="../multimedia/feed insta.jpeg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title claseFormu">Ya nos seguis en nuestro Instagram?</h5>
+            <p class="card-text">
+              Podes mirar todos nuestros platos
+            </p>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img
+            src="../multimedia/mila de soja.jpeg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title claseFormu">Milanesas de Soja Caseras</h5>
+            <p class="card-text">
+              Hechas con harina de soja organica, semillas de chia, lino, sesamo
+              y girasol.
+            </p>
+          </div>
+        </div> 
+      </div>
     </main>
-
     <footer>
       <div class="container-fluid">
         <div class="row">
