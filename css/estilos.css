@@ -1,15 +1,8 @@
-/*cambio de color del nav*/
-.bg-durazno {
-  background-color: #f8e4b0;
-}
-
-
-
 /*INDEX*/
-body {
-  font-family: "Dosis", sans-serif;
+.bg-durazno{
   background-color: #f8e4b0;
 }
+
 
 /*MEDIA QUERIES al INDEX
 @media screen and (max-width: 692px) {
@@ -31,7 +24,7 @@ body {
     justify-content: center;
   }
 }*/
-/*MEDIA QUERIES a SERVICIOS*/
+/*MEDIA QUERIES a SERVICIOS
 .imagenTexto {
   display: flex;
   flex-direction: row;
@@ -55,41 +48,9 @@ body {
     justify-content: center;
     align-items: center;
   }
-}
-/*MENU NAV CON LOGO*/
-.menuPrincipal {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
-.flexboxCaja {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  font-size: 25px;
-}
-.menuPrincipal ul li {
-  list-style: none; /*sin puntos*/
-  padding-right: 20px;
-}
-.colorHome {
-  color: orangered;
-  font-weight: 10px;
-  font-size: 30px;
-  text-decoration: none;
-}
-.logonaranjoCopal {
-  width: 150px;
-  height: 150px;
-  /*TRANSICION*/
-  transition: width 2s, height 2s;
-  border-radius: 180px;
-}
-/*TRANSICION*/
-.menuPrincipal img:hover {
-  width: 350px;
-  height: 350px;
-}
+}*/
+
+
 /*HORARIO DEBAJO DEL NAV*/
 .horarioCopal {
   text-align: center;
@@ -151,8 +112,8 @@ body {
 .correito {
   margin-left: 10px;
 }
-.telefonito{
-  margin-right:7px;
+.telefonito {
+  margin-right: 7px;
 }
 .mensajito {
   display: flex;
@@ -166,24 +127,24 @@ body {
   justify-content: center;
   align-items: center;
 }
-.botones input{
+.botones input {
   font-family: "Dosis", sans-serif;
   font-size: 20px;
-  color:white;
+  color: white;
   width: 100px;
   height: 50px;
   border-radius: 10px;
-  border-color:#8cc85a;
+  border-color: #8cc85a;
   background-color: #8cc85a;
 }
-.arregloFormulario{
+.arregloFormulario {
   font-family: "Dosis", sans-serif;
   font-size: 20px;
-  color:white;
+  color: white;
   width: 100px;
   height: 50px;
   border-radius: 10px;
-  border-color:orangered;
+  border-color: orangered;
   background-color: #8cc85a;
 }
 .dondeEstamos {
@@ -201,7 +162,7 @@ body {
   border: dashed 3px #ff914d;
   padding: 30px;
 }
-@media screen and (max-width: 768px) {
+/*@media screen and (max-width: 768px) {
   .dondeEstamos1 {
     flex-direction: column;
     margin-left: 5px;
@@ -210,7 +171,7 @@ body {
     border: none;
     padding: 0px;
   }
-}
+}*/
 /*IMAGENES DE COPAL*/
 .nuestrosPlatos {
   height: 300px;
@@ -235,7 +196,7 @@ body {
   justify-content: end;
   align-items: flex-end;
 }
-/*.................GRIDS........................................*/
+/*.................GRIDS........................................
 .mainIndex {
   display: grid;
   grid-template-columns: 0.5fr 0.5fr;
@@ -255,7 +216,7 @@ body {
   grid-area: fotoUno;
   justify-content: space-evenly;
   justify-items: center;
-}
+}*/
 /*PAGINA GALERIA*/
 .nuestrasViandas {
   text-align: center;
@@ -278,36 +239,12 @@ body {
   padding: 20px;
   border: dashed 3px #8cc85a;
 }
-.imagenCuatro,
-.imagenSeis {
-  height: 350px;
-  width: 450px;
-  padding: 10px;
-  border: dashed 3px #8cc85a;
-}
-.imagenCinco {
-  height: 400px;
-  width: 250px;
-  padding: 10px;
-  border: dashed 3px #8cc85a;
-}
-.flexgaleriaDos {
-  margin-top: 50px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-/*MEDIA A LA GALERIA*/
+
+/*MEDIA A LA GALERIA
 @media screen and (max-width: 768px) {
   .flexgaleriaUno {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-  }
-  .flexgaleriaDos {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-  }
-}
-/*agregando animaciones y transiciones*/
+  } 
+}*/

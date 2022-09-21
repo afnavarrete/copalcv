@@ -22,24 +22,44 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
+    <!-- APLICO BOOTSTRAP PARA EL NAV Y PARA EL RESPONSIVE CSS only -->
+  <link
+  href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+  rel="stylesheet"
+  integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+  crossorigin="anonymous"
+/>
   </head>
   <body>
     <header>
-      <nav class="menuPrincipal">
-        <img class="logonaranjoCopal" src="../multimedia/STICKERS-01.png " />
-        <ul class="flexboxCaja">
-          <li><a class="colorHome" href="../index.html">Home</a></li>
-          <li>
-            <a class="colorHome" href="../paginas/servicios.html">Servicios</a>
-          </li>
-          <li>
-            <a class="colorHome" href="../paginas/recetas.html">Recetas</a>
-          </li>
-          <li>
-            <a class="colorHome" href="../paginas/galeria.html">Galeria</a>
-          </li>
-          <li><a class="colorHome" href="contacto.html">Contacto</a></li>
-        </ul>
+      <nav class="navbar navbar-expand-lg bg-durazno">
+        <div class="container-fluid">
+          <a class="navbar-brand">
+            <img src="../multimedia/logo copal bst 160x160px.png" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../paginas/servicios.html">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../paginas/recetas.html">Recetas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../paginas/galeria.html" >Galeria</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="./contacto.html" >Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </nav>
     </header>
 
