@@ -23,39 +23,61 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
     <!-- APLICO BOOTSTRAP PARA EL NAV Y PARA EL RESPONSIVE CSS only -->
-  <link
-  href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
-  rel="stylesheet"
-  integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
-  crossorigin="anonymous"
-/>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
   </head>
-  <body>
+  <body class="bg-durazno">
     <header>
       <nav class="navbar navbar-expand-lg bg-durazno">
         <div class="container-fluid">
           <a class="navbar-brand">
-            <img src="../multimedia/logo copal bst 160x160px.png" alt="">
+            <img
+              class="redondo animate__animated animate__tada"
+              src="../multimedia/logo copal bst 160x160px.png"
+              alt=""
+            />
           </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="../index.html"
+                  >Home</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="../paginas/servicios.html">Servicios</a>
+                <a class="nav-link" href="../paginas/servicios.html"
+                  >Servicios</a
+                >
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="../paginas/recetas.html">Recetas</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="../paginas/galeria.html" >Galeria</a>
+                <a class="nav-link" href="../paginas/galeria.html">Galeria</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link " href="./contacto.html" >Contacto</a>
+                <a class="nav-link" href="./contacto.html">Contacto</a>
               </li>
             </ul>
           </div>
@@ -65,85 +87,91 @@
 
     <h2 class="horarioCopal">Contacto</h2>
 
-    <form class="formularioContacto" action="">
-      <div>
-        <label for="nombre">Nombre</label>
-        <input type="text" name="nombre" />
-      </div>
+    <main>
+      <form class="formularioContacto" action="">
 
-      <div class="telefonito">
-        <label for="telefono">Telefono</label>
-        <input type="text" name="telefono" />
-      </div>
+        <div class="nombresito">
+          <label for="nombre">Nombre</label>
+          <input type="text" name="nombre" />
+        </div>
 
-      <div class="correito">
-        <label for="correo">Correo</label>
-        <input type="email" name="correo" />
-      </div>
-      <br />
-      <div class="mensajito">
-        <label for="mensaje" class="mensajitoDos">Mensaje</label>
-        <textarea name="mensaje" id="" cols="20" rows="10"></textarea>
-      </div>
-      <div>
-        <label for="opciondeenvio">Envio a Domicilio?:</label>
+        <div class="telefonito">
+          <label for="telefono">Teléfono</label>
+          <input type="text" name="telefono" />
+        </div>
+
+        <div class="correito">
+          <label for="correo">Correo</label>
+          <input type="email" name="correo" />
+        </div>
         <br />
-        <input type="radio" value="Si" name="opciondeenvio" /> Si
-        <input type="radio" value="Retiro en Tienda" name="opciondeenvio" />
-        Retiro en Tienda
-      </div>
-      <br />
-      <div>
-        <label for="terminos">Acepto Terminos:</label>
+        <div class="mensajito">
+          <label for="mensaje">Mensaje</label>
+          <textarea c name="mensaje" id="" cols="16" rows="5"></textarea>
+        </div>
+        <div>
+          <label for="opciondeenvio">Envio a Domicilio?:</label>
+          <br />
+          <input type="radio" value="Si" name="opciondeenvio" /> Si
+          <input type="radio" value="Retiro en Tienda" name="opciondeenvio" />
+          Retiro en Tienda
+        </div>
         <br />
-        <input type="checkbox" value="1" name="terminos" /> Quiero recibir Wsp
+        <div>
+          <label for="terminos">Acepto Terminos:</label>
+          <br />
+          <input type="checkbox" value="1" name="terminos" /> Quiero recibir Wsp
+          <br />
+          <input type="checkbox" value="2" name="terminos" /> Quiero recibir
+          Newsletter <br />
+          <input type="checkbox" value="3" name="terminos" /> Acepto Todo
+        </div>
         <br />
-        <input type="checkbox" value="2" name="terminos" /> Quiero recibir
-        Newsletter <br />
-        <input type="checkbox" value="3" name="terminos" /> Acepto Todo
-      </div>
-      <br />
-      <div>
-        <label for="lugardeenvio">Lugar donde recibo mi vianda:</label> <br />
-        <select class="arregloFormulario" name="lugardeenvio">
-          <option value="Empresa">Empresa</option>
-          <option value="Casa">Casa</option>
-          <option value="Edificio">Edificio</option>
-        </select>
-      </div>
-      <br />
-      <div class="botones">
-        <input type="button" value="JS" />
-        <input type="submit" value="Enviar" />
-        <input type="reset" value="Borrar" />
-      </div>
-      <br />
-    </form>
-    <h2 class="dondeEstamos">Donde estamos?:</h2>
+        <!--CLASS: .arregloFormulario-->
+        <div>
+          <label for="lugardeenvio">Lugar donde recibo mi vianda:</label> <br />
+          <select class="arregloFormulario" name="lugardeenvio">
+            <option value="Empresa">Empresa</option>
+            <option value="Casa">Casa</option>
+            <option value="Edificio">Edificio</option>
+          </select>
+        </div>
+        <br />
+        <!--class:"botones input"-->
+        <div class="botones">
+          <input type="button" value="JS" />
+          <input type="submit" value="Enviar" />
+          <input type="reset" value="Borrar" />
+        </div>
+        <br />
+      </form>
+    </main>
+    <h2 class="dondeEstamos">Retira tu vianda por el local:</h2>
     <iframe
       class="dondeEstamos1"
       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3422.084050859924!2d-61.56820148504833!3d-30.940216981565403!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9435445400470711%3A0x85a9c2e5fed8ae55!2sCopal%20Cocina%20Vegeratiana!5e0!3m2!1ses-419!2sar!4v1660852083215!5m2!1ses-419!2sar"
-      width="600"
-      height="450"
+      width="400"
+      height="400"
       style="border: 50"
       allowfullscreen=""
       loading="lazy"
       referrerpolicy="no-referrer-when-downgrade"
       frameborder="0"
     ></iframe>
-    <main class="textoEncarga">
-      <h1 class="textoEncarga">Encargá tu vianda:</h1>
-      <a
-        href="https://api.whatsapp.com/send?phone=543493520455&text=Hola!%20Quisiera%20informacion%20sobre%20las%20viandas.%20Gracias!"
-      >
-        <img
-          class="logoWhatsapp animate__animated animate__bounce animate__infinite infinite"
-          src="../multimedia/uasaap.png"
-          alt=""
-        />
-      </a>
-    </main>
+
     <footer>
+      <div class="textoEncarga">
+        <h1 class="textoEncarga">Encargá tu vianda:</h1>
+        <a
+          href="https://api.whatsapp.com/send?phone=543493520455&text=Hola!%20Quisiera%20informacion%20sobre%20las%20viandas.%20Gracias!"
+        >
+          <img
+            class="logoWhatsapp animate__animated animate__bounce animate__infinite infinite"
+            src="../multimedia/uasaap.png"
+            alt=""
+          />
+        </a>
+      </div>
       <div class="moverLoguitos">
         <h3 class="moverLoguitos">Seguinos en:</h3>
         <a
@@ -157,5 +185,11 @@
         </a>
       </div>
     </footer>
+    <!--BOOTSTRAP JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

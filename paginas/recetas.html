@@ -22,40 +22,62 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
-   <!-- APLICO BOOTSTRAP PARA EL NAV Y PARA EL RESPONSIVE CSS only -->
-  <link
-  href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
-  rel="stylesheet"
-  integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
-  crossorigin="anonymous"
-/>
+    <!-- APLICO BOOTSTRAP PARA EL NAV Y PARA EL RESPONSIVE CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
   </head>
-  <body>
+  <body class="bg-durazno">
     <header>
       <nav class="navbar navbar-expand-lg bg-durazno">
         <div class="container-fluid">
           <a class="navbar-brand">
-            <img src="../multimedia/logo copal bst 160x160px.png" alt="">
+            <img
+              class="redondo animate__animated animate__tada"
+              src="../multimedia/logo copal bst 160x160px.png"
+              alt=""
+            />
           </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="../index.html"
+                  >Home</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="../paginas/servicios.html">Servicios</a>
+                <a class="nav-link" href="../paginas/servicios.html"
+                  >Servicios</a
+                >
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="./recetas.html">Recetas</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="../paginas/galeria.html" >Galeria</a>
+                <a class="nav-link" href="../paginas/galeria.html">Galeria</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link " href="../paginas/contacto.html" >Contacto</a>
+                <a class="nav-link" href="../paginas/contacto.html">Contacto</a>
               </li>
             </ul>
           </div>
@@ -65,23 +87,22 @@
     <h2 class="horarioCopal">Recetas Copaleras para Compartir</h2>
 
     <main class="recetasCopaleras">
-      <img class="librosRecetas" src="../multimedia/recetas.jpg" alt="" />
+      <img src="../multimedia/recetas.jpg" alt="" /> 
     </main>
-
-    <div class="textoEncarga">
-      <h1 class="textoEncarga">Encargá tu vianda:</h1>
-      <a
-        href="https://api.whatsapp.com/send?phone=543493520455&text=Hola!%20Quisiera%20informacion%20sobre%20las%20viandas.%20Gracias!"
-      >
-        <img
-          class="logoWhatsapp animate__animated animate__bounce animate__infinite infinite"
-          src="../multimedia/uasaap.png"
-          alt=""
-        />
-      </a>
-    </div>
-
     <footer>
+      <div class="textoEncarga">
+        <h1 class="textoEncarga">Encargá tu vianda:</h1>
+        <!--ENLACE A WHATSAPP-->
+        <a
+          href="https://api.whatsapp.com/send?phone=543493520455&text=Hola!%20Quisiera%20informacion%20sobre%20las%20viandas.%20Gracias!"
+        >
+          <img
+            class="logoWhatsapp animate__animated animate__bounce animate__infinite infinite"
+            src="../multimedia/uasaap.png"
+            alt=""
+          />
+        </a>
+      </div>
       <div class="moverLoguitos">
         <h3 class="moverLoguitos">Seguinos en:</h3>
         <a
@@ -95,6 +116,11 @@
         </a>
       </div>
     </footer>
-   
+    <!--BOOTSTRAP JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

@@ -1,58 +1,30 @@
-/*INDEX*/
-.bg-durazno{
+/*cambio de color del nav y body*/
+.bg-durazno {
   background-color: #f8e4b0;
 }
-
-
-/*MEDIA QUERIES al INDEX
-@media screen and (max-width: 692px) {
-  .bodyIndex main {
-    grid-template-columns: 0.5fr 0.5fr;
-    grid-template-rows: 0.5fr;
-    grid-row-gap: 5px;
-    grid-column-gap: 5px;
-    grid-template-areas:
-      "parrafoUno"
-      "fotoUno";
-    justify-items: center;
-    align-items: center;
-  }
-  .parrafoUno{
-    text-align: justify;
-  }
-  .mainIndex img{
-    justify-content: center;
-  }
-}*/
-/*MEDIA QUERIES a SERVICIOS
-.imagenTexto {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: center;
-  align-items: center;
+/*LOGO DEL NAV*/
+.redondo {
+  border-radius: 150px;
 }
-.texto {
-  font-size: 20px;
-  color: white;
-  font-weight: 100;
-  text-align: center;
-  background-color: #8cc85a;
-  padding: 25px;
-  border-radius: 50px;
+/*EL NAVBAR */
+.navbar {
+  font-family: "Dosis", sans-serif;
+  font-size: x-large;
 }
-@media screen and (max-width: 768px) {
-  .imagenTexto {
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-  }
-}*/
-
-
-/*HORARIO DEBAJO DEL NAV*/
+/*COPIE DEL INSPECTOR Y CAMBIE LOS COLORES DEL NAVBAR*/
+.navbar-nav {
+  --bs-navbar-color: #ff914d;
+  --bs-navbar-hover-color: #ff914d;
+  --bs-navbar-disabled-color: #ff914d;
+  --bs-navbar-active-color: #ff914d;
+  --bs-navbar-brand-font-size: 1.25rem;
+  --bs-navbar-brand-color: #ff914d;
+  --bs-navbar-brand-hover-color: #ff914d;
+  --bs-navbar-toggler-border-color: #ff914d;
+}
+/*TITULOS DEBAJO DEL NAV DE TODAS LAS PAGINAS*/
 .horarioCopal {
+  font-family: "Dosis", sans-serif;
   text-align: center;
   color: white;
   font-weight: 100;
@@ -60,8 +32,51 @@
   background-color: #ff914d;
   border-radius: 10px;
 }
-/*LLAMADO A LA ACCION*/
+/*MAIN(parrafo+foto)INDEX CON FLEX*/
+.mainIndex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+/*parrafo del index*/
+.parrafoUno {
+  display: flex;
+  flex-direction: row;
+  font-family: "Dosis", sans-serif;
+  font-size: 25px;
+  align-items: center;
+  color: orangered;
+  font-weight: 100;
+}
+/*Imagen del index*/
+.fotoUno {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 300px;
+  width: 250px;
+}
+/*media queries del main index*/
+@media screen and (max-width: 768px) {
+  .mainIndex {
+    flex-direction: column;
+  }
+  .parrafoUno {
+    flex-direction: column;
+    margin-left: 10px;
+  }
+  .fotoUno {
+    flex-direction: column;
+    margin-left: 30px;
+  }
+  .redondo {
+    height: 150px;
+    border-radius: 150px;
+  }
+}
+/*TODOS LOS FOOTER*/
 .textoEncarga {
+  font-family: "Dosis", sans-serif;
   text-align: center;
   font-size: 40px;
   font-weight: 100;
@@ -75,8 +90,8 @@
   height: 60px;
   border-radius: 10px;
 }
-/*SEGUINOS EN REDES*/
 .moverLoguitos {
+  font-family: "Dosis", sans-serif;
   text-align: center;
   font-size: 30px;
   font-weight: 100;
@@ -92,144 +107,52 @@
   padding: 10px;
   border-radius: 5px;
 }
-
-/*PAGINA RECETAS*/
+/*PAGINA SEVICIOS*/
+.mainServicios{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+/*PARRAFO DEL MAIN DE SERVICIOS*/
+.parrafoServicios{
+  align-self: center;
+  font-family: "Dosis", sans-serif;
+  color: orangered;
+  font-size: 25px;
+}
+@media screen and (max-width:1024px) {
+  .mainServicios{
+    flex-direction: column;
+  }
+  .parrafoServicios{
+    font-family: "Dosis", sans-serif;
+    color: orangered;
+    font-size: 25px;
+    margin-left: 10px;
+  }
+}
+/*PAGINA RECETAS UNICA IMAGEN*/
 .recetasCopaleras {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
 }
-
-/*PAGINA CONTACTO*/
-.formularioContacto {
-  font-weight: 200;
-  color: orangered;
-  text-align: center;
-  margin: 10px;
-  font-size: 30px;
-}
-.correito {
-  margin-left: 10px;
-}
-.telefonito {
-  margin-right: 7px;
-}
-.mensajito {
-  display: flex;
-  justify-items: center;
-  justify-content: center;
-  align-items: center;
-}
-.mensajitoDos {
-  display: flex;
-  justify-items: center;
-  justify-content: center;
-  align-items: center;
-}
-.botones input {
-  font-family: "Dosis", sans-serif;
-  font-size: 20px;
-  color: white;
-  width: 100px;
-  height: 50px;
-  border-radius: 10px;
-  border-color: #8cc85a;
-  background-color: #8cc85a;
-}
-.arregloFormulario {
-  font-family: "Dosis", sans-serif;
-  font-size: 20px;
-  color: white;
-  width: 100px;
-  height: 50px;
-  border-radius: 10px;
-  border-color: orangered;
-  background-color: #8cc85a;
-}
-.dondeEstamos {
-  text-align: center;
-  color: white;
-  font-weight: 100;
-  font-size: 30px;
-  background-color: #ff914d;
-}
-/*FLEX Y MEDIA QUERIE A CONTACTOS*/
-.dondeEstamos1 {
-  display: flex;
-  flex-direction: row;
-  margin-left: 430px;
-  border: dashed 3px #ff914d;
-  padding: 30px;
-}
-/*@media screen and (max-width: 768px) {
-  .dondeEstamos1 {
-    flex-direction: column;
-    margin-left: 5px;
-    width: 300px;
-    height: 250px;
-    border: none;
-    padding: 0px;
-  }
-}*/
-/*IMAGENES DE COPAL*/
-.nuestrosPlatos {
-  height: 300px;
-  width: 250px;
-  padding: 40px;
-  background-color: #f4c553;
-  border: dashed 3px orangered;
-  border-radius: 10px;
-}
-.parrafoUno {
-  display: flex;
-  flex-direction: row;
-  justify-content: left;
-  text-align: center;
-  font-size: 25px;
-  color: orangered;
-  font-weight: 100;
-}
-.fotoUno {
-  display: flex;
-  flex-direction: row;
-  justify-content: end;
-  align-items: flex-end;
-}
-/*.................GRIDS........................................
-.mainIndex {
-  display: grid;
-  grid-template-columns: 0.5fr 0.5fr;
-  grid-template-rows: 0.5fr;
-  grid-row-gap: 5px;
-  grid-column-gap: 5px;
-  grid-template-areas: "parrafoUno fotoUno";
-  justify-items: center;
-  align-items: center;
-}
-.parrafoUno {
-  grid-area: parrafoUno;
-  justify-self: center;
-  align-self: center;
-}
-.fotoUno {
-  grid-area: fotoUno;
-  justify-content: space-evenly;
-  justify-items: center;
-}*/
 /*PAGINA GALERIA*/
+/*H3 DE LA PAGINA DE GALERIA*/
 .nuestrasViandas {
+  font-family: "Dosis", sans-serif;
   text-align: center;
   color: white;
   font-weight: 100;
   font-size: 30px;
   background-color: #8cc85a;
 }
-/*flexbox a galeria*/
+/*flexbox AL MAIN DE LA GALERIA*/
 .flexgaleriaUno {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content:space-around;
 }
 .imagenUno,
 .imagenDos,
@@ -239,12 +162,101 @@
   padding: 20px;
   border: dashed 3px #8cc85a;
 }
-
-/*MEDIA A LA GALERIA
+/*MEDIA A LA GALERIA*/
 @media screen and (max-width: 768px) {
   .flexgaleriaUno {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
   } 
-}*/
+}
+/*PAGINA CONTACTO, formulario*/
+.formularioContacto {
+  font-family: "Dosis", sans-serif;
+  font-weight: 100;
+  color: orangered;
+  margin: 30px;
+  font-size: 20px;
+}
+/*ARREGLO DE CADA UNO DE LOS BOTONES DEL FORMULARIO*/
+.nombresito input{
+  background-color: #f8e4b0;
+  color: orangered;
+  font-size: 15px;
+  font-weight: 100;
+  margin-left: 5px;
+}
+.telefonito input{
+  background-color: #f8e4b0;
+  color: orangered;
+  font-size: 15px;
+  font-weight: 100;
+  margin-left: 2px;
+}
+.correito input {
+  background-color: #f8e4b0;
+  color: orangered;
+  font-size: 15px;
+  font-weight: 100;
+  margin-left: 15px;
+}
+textarea{
+  background-color: #f8e4b0;
+  color: orangered; 
+  font-weight: 100;
+}
+.mensajito {
+  display: flex;
+  font-family: "Dosis", sans-serif;
+  font-weight: 100;
+  color: orangered;
+  margin-left: 2px;
+  font-size: 20px;
+}
+.arregloFormulario {
+  font-family: "Dosis", sans-serif;
+  font-size: 15px;
+  color: white;
+  width: 80px;
+  height: 50px;
+  border-radius: 10px;
+  border-color: orangered;
+  background-color: #8cc85a;
+}
+.botones input {
+  font-family: "Dosis", sans-serif;
+  font-size: 15px;
+  color: white;
+  width: 80px;
+  height: 50px;
+  border-radius: 10px;
+  border-color: #8cc85a;
+  background-color: #8cc85a;
+}
+/*IFRAME DE CONTACTO*/
+.dondeEstamos {
+  text-align: center;
+  color: white;
+  font-weight: 100;
+  font-size: 30px;
+  background-color: #ff914d;
+  border-radius: 10px;
+}
+.dondeEstamos1 {
+  display: flex;
+  flex-direction: row;
+  margin-left: 30px;
+  border: dashed 3px #ff914d;
+  padding: 30px;
+}
+@media screen and (max-width: 768px) {
+  .dondeEstamos1 {
+    flex-direction: column;
+    margin-left: 5px;
+    width: 300px;
+    height: 250px;
+    border: none;
+    padding: 0px;
+  }
+}
+

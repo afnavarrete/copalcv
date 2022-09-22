@@ -33,12 +33,17 @@
     />
   </head>
 
-  <body>
+  <body class="bg-durazno">
     <header>
+      <!--solo aplique el navbar y algunas class-->
       <nav class="navbar navbar-expand-lg bg-durazno">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"
-            ><img src="./multimedia/logo copal bst 160x160px.png" alt="" />
+          <a class="navbar-brand" 
+            ><img
+              class="redondo animate__animated animate__tada"
+              src="./multimedia/logo copal bst 160x160px.png"
+              alt=""
+            />
           </a>
           <button
             class="navbar-toggler"
@@ -57,10 +62,7 @@
           >
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a
-                  class="nav-link active"
-                  aria-current="page"
-                  href="/index.html"
+                <a class="nav-link active" aria-current="page" href="index.html"
                   >Home</a
                 >
               </li>
@@ -76,7 +78,9 @@
                 <a class="nav-link" href="./paginas/galeria.html">Galeria</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./paginas/contacto.html">Contacto</a>
+                <a class="nav-link navbar-nav" href="./paginas/contacto.html"
+                  >Contacto</a
+                >
               </li>
             </ul>
           </div>
@@ -87,38 +91,37 @@
         Horarios de Atención: Lunes a Viernes de 8 a 17hs
       </h1>
     </header>
+
     <main class="mainIndex">
       <p class="parrafoUno">
-        Nuestras Tartas son las mas elegidas por nuestros clientes.<br />
-        Elaboramos la masa con harina integral orgánica y semillas. <br />
-        El relleno, de verduras de estación, ricota y especias. <br />
-        Salen todos los Miércoles y podes elegir <br />en opcion menú (con
+        Nuestras Tartas son las mas elegidas por nuestros clientes. <br>
+        Elaboramos la masa con harina integral orgánica y semillas. <br>
+        El relleno, de verduras de estación, ricota y especias. <br>
+        Salen todos los Miércoles y podes elegir <br> en opcion menú (con
         ensalada) o tarta entera.
       </p>
       <img
         src="multimedia/WhatsApp Image 2022-08-23 at 5.23.12 PM (1).jpeg"
         alt="nuestrosplatos"
         title="Tarta Integral con Ensalada"
-        class="nuestrosPlatos fotoUno"
+        class=" fotoUno"
       />
     </main>
-
-    <div class="textoEncarga">
-      <h1 class="textoEncarga">Encargá tu vianda:</h1>
-      <!--ENLACE A WHATSAPP-->
-      <a
-        href="https://api.whatsapp.com/send?phone=543493520455&text=Hola!%20Quisiera%20informacion%20sobre%20las%20viandas.%20Gracias!"
-      >
-        <img
-          class="logoWhatsapp animate__animated animate__bounce animate__infinite infinite"
-          src="multimedia/uasaap.png"
-          alt="logo de WhatsApp"
-        />
-      </a>
-    </div>
-
+    
     <footer>
-      <!--ENLACES EXTERNOS-->
+      <div class="textoEncarga">
+        <h1 class="textoEncarga">Encargá tu vianda:</h1>
+        <!--ENLACE A WHATSAPP-->
+        <a
+          href="https://api.whatsapp.com/send?phone=543493520455&text=Hola!%20Quisiera%20informacion%20sobre%20las%20viandas.%20Gracias!"
+        >
+          <img
+            class="logoWhatsapp animate__animated animate__bounce animate__infinite infinite"
+            src="multimedia/uasaap.png"
+            alt="logo de WhatsApp"
+          />
+        </a>
+      </div>
       <div class="moverLoguitos">
         <h3 class="moverLoguitos">Seguinos en:</h3>
         <a
