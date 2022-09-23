@@ -1,0 +1,266 @@
+/*Variables de color del Body*/
+/*Variables de color de las letras*/
+/*el Titulo (debajo del nav) y de los Footers*/
+/*del INDEX*/
+/*foto + parrafo del main*/
+@media screen and (max-width: 768px) {
+  .mainIndex {
+    flex-direction: column; }
+  .parrafoUno {
+    flex-direction: column;
+    margin-left: 10px; }
+  .fotoUno {
+    flex-direction: column;
+    margin-left: 30px; }
+  .redondo {
+    height: 150px;
+    border-radius: 150px; } }
+
+/*----------------------------------------------------------*/
+/*de SERVICIOS*/
+@media screen and (max-width: 1024px) {
+  .mainServicios {
+    flex-direction: column; }
+  .parrafoServicios {
+    font-family: "Dosis", sans-serif;
+    color: orangered;
+    font-size: 25px;
+    margin-left: 10px; } }
+
+/*----------------------------------------------------------*/
+/*de GALERIA*/
+@media screen and (max-width: 768px) {
+  .flexgaleriaUno {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; } }
+
+/*----------------------------------------------------------*/
+/*de CONTACTOS*/
+@media screen and (max-width: 768px) {
+  .dondeEstamos1 {
+    flex-direction: column;
+    margin-left: 5px;
+    width: 300px;
+    height: 250px;
+    border: none;
+    padding: 0px; } }
+
+/*ACA ESTAN LOS ESTILOS QUE SE COMPARTEN EN TODAS LAS PAGINAS*/
+/*cambio de color del nav y body*/
+.bg-durazno {
+  background-color: #f8e4b0; }
+
+/*mi logo en el NAVBAR*/
+.redondo {
+  border-radius: 150px; }
+
+/*el NAVBAR  de Bootstrap */
+.navbar {
+  font-family: "Dosis", sans-serif;
+  font-size: x-large; }
+
+/*cambio de colores del navbar*/
+.navbar-nav {
+  --bs-navbar-color: #ff914d;
+  --bs-navbar-hover-color: #ff914d;
+  --bs-navbar-disabled-color: #ff914d;
+  --bs-navbar-active-color: #ff914d;
+  --bs-navbar-brand-font-size: 1.25rem;
+  --bs-navbar-brand-color: #ff914d;
+  --bs-navbar-brand-hover-color: #ff914d;
+  --bs-navbar-toggler-border-color: #ff914d; }
+
+/*TITULOS DEBAJO DEL NAV DE TODAS LAS PAGINAS*/
+.horarioCopal {
+  font-family: "Dosis", sans-serif;
+  text-align: center;
+  color: white;
+  font-weight: 100;
+  font-size: 30px;
+  background-color: #ff914d;
+  border-radius: 10px; }
+
+/*TODOS LOS FOOTER*/
+/*texto arriba del boton de whatsapp*/
+.textoEncarga {
+  font-family: "Dosis", sans-serif;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 100;
+  color: white;
+  background-color: #ff914d;
+  border-radius: 10px;
+  margin-top: 20px; }
+
+/*el logo de whatsapp*/
+.logoWhatsapp {
+  width: 60px;
+  height: 60px;
+  border-radius: 10px; }
+
+/*Nesting del footer (instagram y facebook*/
+.moverLoguitos {
+  font-family: "Dosis", sans-serif;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 100;
+  color: white;
+  background-color: #f4c553;
+  border-radius: 10px; }
+  .moverLoguitos img {
+    width: 60px;
+    height: 60px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 5px; }
+
+/*ACA VA LO EXCLUSIVO DEL INDEX"
+
+
+/*MAIN(parrafo+foto)CON FLEX*/
+.mainIndex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+/*parrafo del index*/
+.parrafoUno {
+  display: flex;
+  flex-direction: row;
+  font-family: "Dosis", sans-serif;
+  font-size: 25px;
+  align-items: center;
+  color: orangered;
+  font-weight: 100; }
+
+/*Imagen del index*/
+.fotoUno {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 300px;
+  width: 250px; }
+
+/*LA PAGINA SERVICIOS*/
+/*main*/
+.mainServicios {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+/*parrafo dentro del main*/
+.parrafoServicios {
+  align-self: center;
+  font-family: "Dosis", sans-serif;
+  color: orangered;
+  font-size: 25px;
+  font-weight: 100; }
+
+/*PAGINA RECETAS*/
+/*unica imagen porque no subi recetas aun*/
+.recetasCopaleras {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; }
+
+/*PAGINA GALERIA*/
+/*flexbox al main*/
+.flexgaleriaUno {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
+
+.imagenUno,
+.imagenDos,
+.imagenTres {
+  height: 500px;
+  width: 350px;
+  padding: 20px;
+  border: dashed 3px #8cc85a; }
+
+/*PAGINA CONTACTOS*/
+/*formulario*/
+.formularioContacto {
+  font-family: "Dosis", sans-serif;
+  font-weight: 100;
+  color: orangered;
+  margin: 30px;
+  font-size: 20px; }
+
+/*ARREGLO DE CADA UNO DE LOS BOTONES DEL FORMULARIO*/
+.nombresito input {
+  background-color: #f8e4b0;
+  color: orangered;
+  font-size: 15px;
+  font-weight: 100;
+  margin-left: 5px; }
+
+.telefonito input {
+  background-color: #f8e4b0;
+  color: orangered;
+  font-size: 15px;
+  font-weight: 100;
+  margin-left: 2px; }
+
+.correito input {
+  background-color: #f8e4b0;
+  color: orangered;
+  font-size: 15px;
+  font-weight: 100;
+  margin-left: 15px; }
+
+/*ESTO ES PARA EL RECUADRO DE MENSAJES*/
+textarea {
+  background-color: #f8e4b0;
+  color: orangered;
+  font-weight: 100; }
+
+.mensajito {
+  display: flex;
+  font-family: "Dosis", sans-serif;
+  font-weight: 100;
+  color: orangered;
+  margin-left: 2px;
+  font-size: 20px; }
+
+/*botones desplegables del "lugar donde recibo mi vianda"*/
+.arregloFormulario {
+  font-family: "Dosis", sans-serif;
+  font-size: 15px;
+  color: white;
+  width: 80px;
+  height: 50px;
+  border-radius: 10px;
+  border-color: orangered;
+  background-color: #8cc85a; }
+
+/*botones de "JS, ENVIAR, BORRAR"*/
+.botones input {
+  font-family: "Dosis", sans-serif;
+  font-size: 15px;
+  color: white;
+  width: 80px;
+  height: 50px;
+  border-radius: 10px;
+  border-color: #8cc85a;
+  background-color: #8cc85a; }
+
+/*googlemap*/
+.dondeEstamos {
+  font-family: "Dosis", sans-serif;
+  text-align: center;
+  color: white;
+  font-weight: 100;
+  font-size: 30px;
+  background-color: #ff914d;
+  border-radius: 10px; }
+
+.dondeEstamos1 {
+  display: flex;
+  flex-direction: row;
+  margin-left: 30px;
+  border: dashed 3px #ff914d;
+  padding: 30px; }

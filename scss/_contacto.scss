@@ -1,0 +1,93 @@
+/*PAGINA CONTACTOS*/
+/*formulario*/
+.formularioContacto {
+    font-family: "Dosis", sans-serif;
+    font-weight: 100;
+    color: orangered;
+    margin: 30px;
+    font-size: 20px;
+}
+
+/*ARREGLO DE CADA UNO DE LOS BOTONES DEL FORMULARIO*/
+.nombresito input {
+    background-color: #f8e4b0;
+    color: orangered;
+    font-size: 15px;
+    font-weight: 100;
+    margin-left: 5px;
+}
+
+.telefonito input {
+    background-color: #f8e4b0;
+    color: orangered;
+    font-size: 15px;
+    font-weight: 100;
+    margin-left: 2px;
+}
+
+.correito input {
+    background-color: #f8e4b0;
+    color: orangered;
+    font-size: 15px;
+    font-weight: 100;
+    margin-left: 15px;
+}
+
+/*ESTO ES PARA EL RECUADRO DE MENSAJES*/
+textarea {
+    background-color: #f8e4b0;
+    color: orangered;
+    font-weight: 100;
+}
+
+.mensajito {
+    display: flex;
+    font-family: "Dosis", sans-serif;
+    font-weight: 100;
+    color: orangered;
+    margin-left: 2px;
+    font-size: 20px;
+}
+
+/*botones desplegables del "lugar donde recibo mi vianda"*/
+.arregloFormulario {
+    font-family: "Dosis", sans-serif;
+    font-size: 15px;
+    color: white;
+    width: 80px;
+    height: 50px;
+    border-radius: 10px;
+    border-color: orangered;
+    background-color: #8cc85a;
+}
+
+/*botones de "JS, ENVIAR, BORRAR"*/
+.botones input {
+    font-family: "Dosis", sans-serif;
+    font-size: 15px;
+    color: white;
+    width: 80px;
+    height: 50px;
+    border-radius: 10px;
+    border-color: #8cc85a;
+    background-color: #8cc85a;
+}
+
+/*googlemap*/
+.dondeEstamos {
+    font-family: "Dosis", sans-serif;
+    text-align: center;
+    color: white;
+    font-weight: 100;
+    font-size: 30px;
+    background-color: #ff914d;
+    border-radius: 10px;
+}
+
+.dondeEstamos1 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    border: dashed 3px #ff914d;
+    padding: 30px;
+}

@@ -1,0 +1,29 @@
+/*ACA VA LO EXCLUSIVO DEL INDEX"
+
+
+/*MAIN(parrafo+foto)CON FLEX*/
+.mainIndex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/*parrafo del index*/
+.parrafoUno {
+    display: flex;
+    flex-direction: row;
+    font-family: "Dosis", sans-serif;
+    font-size: 25px;
+    align-items: center;
+    color: orangered;
+    font-weight: 100;
+}
+
+/*Imagen del index*/
+.fotoUno {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 300px;
+    width: 250px;
+}

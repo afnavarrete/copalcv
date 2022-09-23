@@ -1,0 +1,17 @@
+/*LA PAGINA SERVICIOS*/
+
+/*main*/
+.mainServicios {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/*parrafo dentro del main*/
+.parrafoServicios {
+    align-self: center;
+    font-family: "Dosis", sans-serif;
+    color: orangered;
+    font-size: 25px;
+    font-weight: 100;
+}

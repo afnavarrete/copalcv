@@ -1,0 +1,81 @@
+/*ACA ESTAN LOS ESTILOS QUE SE COMPARTEN EN TODAS LAS PAGINAS*/
+
+
+/*cambio de color del nav y body*/
+.bg-durazno {
+    background-color: $colorPrincipal;
+}
+
+/*mi logo en el NAVBAR*/
+.redondo {
+    border-radius: 150px;
+}
+
+/*el NAVBAR  de Bootstrap */
+.navbar {
+    font-family: "Dosis", sans-serif;
+    font-size: x-large;
+}
+
+/*cambio de colores del navbar*/
+.navbar-nav {
+    --bs-navbar-color: #ff914d;
+    --bs-navbar-hover-color: #ff914d;
+    --bs-navbar-disabled-color: #ff914d;
+    --bs-navbar-active-color: #ff914d;
+    --bs-navbar-brand-font-size: 1.25rem;
+    --bs-navbar-brand-color: #ff914d;
+    --bs-navbar-brand-hover-color: #ff914d;
+    --bs-navbar-toggler-border-color: #ff914d;
+}
+
+/*TITULOS DEBAJO DEL NAV DE TODAS LAS PAGINAS*/
+.horarioCopal {
+    font-family: "Dosis", sans-serif;
+    text-align: center;
+    color:$letraPrincipal;
+    font-weight: 100;
+    font-size: 30px;
+    background-color: #ff914d;
+    border-radius: 10px;
+}
+
+/*TODOS LOS FOOTER*/
+/*texto arriba del boton de whatsapp*/
+.textoEncarga {
+    font-family: "Dosis", sans-serif;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 100;
+    color: $letraPrincipal;
+    background-color: #ff914d;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/*el logo de whatsapp*/
+.logoWhatsapp {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+}
+
+/*Nesting del footer (instagram y facebook*/
+.moverLoguitos {
+    font-family: "Dosis", sans-serif;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 100;
+    color: $letraPrincipal;
+    background-color: #f4c553;
+    border-radius: 10px;
+
+    img {
+        width: 60px;
+        height: 60px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding: 10px;
+        border-radius: 5px;
+    }
+}

@@ -1,0 +1,17 @@
+/*PAGINA GALERIA*/
+
+/*flexbox al main*/
+.flexgaleriaUno {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.imagenUno,
+.imagenDos,
+.imagenTres {
+    height: 500px;
+    width: 350px;
+    padding: 20px;
+    border: dashed 3px #8cc85a;
+}

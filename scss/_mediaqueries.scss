@@ -1,0 +1,61 @@
+/*del INDEX*/
+/*foto + parrafo del main*/
+@media screen and (max-width: 768px) {
+    .mainIndex {
+        flex-direction: column;
+    }
+
+    .parrafoUno {
+        flex-direction: column;
+        margin-left: 10px;
+    }
+
+    .fotoUno {
+        flex-direction: column;
+        margin-left: 30px;
+    }
+
+    .redondo {
+        height: 150px;
+        border-radius: 150px;
+    }
+}
+
+/*----------------------------------------------------------*/
+
+/*de SERVICIOS*/
+@media screen and (max-width:1024px) {
+    .mainServicios {
+        flex-direction: column;
+    }
+
+    .parrafoServicios {
+        font-family: "Dosis", sans-serif;
+        color: orangered;
+        font-size: 25px;
+        margin-left: 10px;
+    }
+}
+
+/*----------------------------------------------------------*/
+/*de GALERIA*/
+@media screen and (max-width: 768px) {
+    .flexgaleriaUno {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}
+
+/*----------------------------------------------------------*/
+/*de CONTACTOS*/
+@media screen and (max-width: 768px) {
+    .dondeEstamos1 {
+        flex-direction: column;
+        margin-left: 5px;
+        width: 300px;
+        height: 250px;
+        border: none;
+        padding: 0px;
+    }
+}
