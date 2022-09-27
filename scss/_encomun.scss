@@ -29,15 +29,11 @@
     --bs-navbar-toggler-border-color: #ff914d;
 }
 
-/*TITULOS DEBAJO DEL NAV DE TODAS LAS PAGINAS*/
+/*TITULOS DEBAJO DEL NAV DE TODAS LAS PAGINAS con extend*/
 .horarioCopal {
-    font-family: "Dosis", sans-serif;
-    text-align: center;
-    color:$letraPrincipal;
-    font-weight: 100;
+    @extend .textoEncarga;
     font-size: 30px;
-    background-color: #ff914d;
-    border-radius: 10px;
+    margin-top: 0px;
 }
 
 /*TODOS LOS FOOTER*/
@@ -60,15 +56,12 @@
     border-radius: 10px;
 }
 
-/*Nesting del footer (instagram y facebook*/
+/*Nesting del footer (instagram y facebook) y acoplo Extend*/
 .moverLoguitos {
-    font-family: "Dosis", sans-serif;
-    text-align: center;
+    @extend .textoEncarga;
     font-size: 30px;
-    font-weight: 100;
-    color: $letraPrincipal;
     background-color: #f4c553;
-    border-radius: 10px;
+    margin-top: 0px;
 
     img {
         width: 60px;

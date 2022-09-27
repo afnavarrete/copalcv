@@ -1,6 +1,29 @@
+@charset "UTF-8";
 /*Variables de color del Body*/
 /*Variables de color de las letras*/
 /*el Titulo (debajo del nav) y de los Footers*/
+/*map-get()*/
+/*trabaje en el main de la pagina "servicios"*/
+/*1° declarar el Mapa*/
+/*2° crear el bucle*/
+.parrafoServicios {
+  text-align: center;
+  font-family: "Dosis";
+  color: orangered;
+  font-size: 25px;
+  font-weight: 100; }
+
+/*MIXIN CON PARAMETRO*/
+.fotoUno {
+  width: 250px;
+  height: 300px; }
+
+/*MIXIN SIN PARAMETRO*/
+.mainIndex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
 /*del INDEX*/
 /*foto + parrafo del main*/
 @media screen and (max-width: 768px) {
@@ -18,7 +41,7 @@
 
 /*----------------------------------------------------------*/
 /*de SERVICIOS*/
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   .mainServicios {
     flex-direction: column; }
   .parrafoServicios {
@@ -71,19 +94,14 @@
   --bs-navbar-brand-hover-color: #ff914d;
   --bs-navbar-toggler-border-color: #ff914d; }
 
-/*TITULOS DEBAJO DEL NAV DE TODAS LAS PAGINAS*/
+/*TITULOS DEBAJO DEL NAV DE TODAS LAS PAGINAS con extend*/
 .horarioCopal {
-  font-family: "Dosis", sans-serif;
-  text-align: center;
-  color: white;
-  font-weight: 100;
   font-size: 30px;
-  background-color: #ff914d;
-  border-radius: 10px; }
+  margin-top: 0px; }
 
 /*TODOS LOS FOOTER*/
 /*texto arriba del boton de whatsapp*/
-.textoEncarga {
+.textoEncarga, .horarioCopal, .moverLoguitos {
   font-family: "Dosis", sans-serif;
   text-align: center;
   font-size: 40px;
@@ -99,15 +117,11 @@
   height: 60px;
   border-radius: 10px; }
 
-/*Nesting del footer (instagram y facebook*/
+/*Nesting del footer (instagram y facebook) y acoplo Extend*/
 .moverLoguitos {
-  font-family: "Dosis", sans-serif;
-  text-align: center;
   font-size: 30px;
-  font-weight: 100;
-  color: white;
   background-color: #f4c553;
-  border-radius: 10px; }
+  margin-top: 0px; }
   .moverLoguitos img {
     width: 60px;
     height: 60px;
@@ -117,14 +131,6 @@
     border-radius: 5px; }
 
 /*ACA VA LO EXCLUSIVO DEL INDEX"
-
-
-/*MAIN(parrafo+foto)CON FLEX*/
-.mainIndex {
-  display: flex;
-  flex-direction: row;
-  justify-content: center; }
-
 /*parrafo del index*/
 .parrafoUno {
   display: flex;
@@ -139,9 +145,7 @@
 .fotoUno {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  height: 300px;
-  width: 250px; }
+  justify-content: center; }
 
 /*LA PAGINA SERVICIOS*/
 /*main*/
@@ -149,14 +153,6 @@
   display: flex;
   flex-direction: row;
   justify-content: center; }
-
-/*parrafo dentro del main*/
-.parrafoServicios {
-  align-self: center;
-  font-family: "Dosis", sans-serif;
-  color: orangered;
-  font-size: 25px;
-  font-weight: 100; }
 
 /*PAGINA RECETAS*/
 /*unica imagen porque no subi recetas aun*/
