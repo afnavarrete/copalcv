@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 /*cambio de color del nav y body
+=======
+
+/*cambio de color del nav*/
+>>>>>>> bootstrap
 .bg-durazno {
   background-color: #f8e4b0;
 }*/
@@ -11,7 +16,19 @@
   font-family: "Dosis", sans-serif;
   font-size: x-large;
 }
+<<<<<<< HEAD
 /*COPIE DEL INSPECTOR Y CAMBIE LOS COLORES DEL NAVBAR
+=======
+/*cambios en el  nav*/
+.redondo {
+  border-radius: 150px;
+}
+.navbar {
+  font-family: "Dosis", sans-serif;
+  font-size: x-large;
+}
+/*COPIE DEL INSPECTOR Y CAMBIE LOS COLORES*/
+>>>>>>> bootstrap
 .navbar-nav {
   --bs-navbar-color: #ff914d;
   --bs-navbar-hover-color: #ff914d;
@@ -21,8 +38,41 @@
   --bs-navbar-brand-color: #ff914d;
   --bs-navbar-brand-hover-color: #ff914d;
   --bs-navbar-toggler-border-color: #ff914d;
+<<<<<<< HEAD
 } */
 /*TITULOS DEBAJO DEL NAV DE TODAS LAS PAGINAS
+=======
+}
+/*CAMBIOS EN EL NAV CON BOOTSTRAP */
+.bodyColor {
+  background-color: #f8e4b0;
+}
+/*TEXTO DE LAS CARDS DEL INDEX*/
+.card-text {
+  font-family: "Dosis", sans-serif;
+  font-size: large;
+  color: #ff914d;
+  margin-top: 40px;
+}
+.card-body {
+  background-color: #f8e4b0;
+  color: #ff914d;
+}
+/*TEXTO ARRIBA DE REDES SOCIALES EN LAS 5 PAGINAS*/
+.colorWsp {
+  font-family: "Dosis", sans-serif;
+  text-align: center;
+  color: white;
+  font-weight: 100;
+  font-size: 30px;
+  background-color: #ff914d;
+  border-radius: 100px;
+}
+.iconWsp {
+  border-radius: 20px;
+}
+/*HORARIO DEBAJO DEL NAV, ESTO NO ESTA CAMBIADO*/
+>>>>>>> bootstrap
 .horarioCopal {
   font-family: "Dosis", sans-serif;
   text-align: center;
@@ -38,6 +88,7 @@
   flex-direction: row;
   justify-content: center;
 }
+<<<<<<< HEAD
 /*parrafo del index
 .parrafoUno {
   display: flex;
@@ -94,12 +145,31 @@
 .moverLoguitos {
   font-family: "Dosis", sans-serif;
   text-align: center;
-  font-size: 30px;
-  font-weight: 100;
-  color: white;
-  background-color: #f4c553;
-  border-radius: 10px;
+=======
+.fotosGaleria {
+  height: 500px;
+  width: 1040px;
 }
+/*NUEVA CLASS PARA EL FORMULARIO DE CONTACTO*/
+.claseFormu {
+  font-family: "Dosis", sans-serif;
+  color: #ff914d;
+  font-weight: 100;
+>>>>>>> bootstrap
+  font-size: 30px;
+}
+/*CAMBIOS EN EL BOTON ENVIAR DEL FORMULARIO DE CONTACTO*/
+.botonEnviar {
+  background-color: #ff914d;
+  color: white;
+  border-color: #ff914d;
+  border-radius: 10px;
+  font-family: "Dosis", sans-serif;
+  font-size: 25px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+<<<<<<< HEAD
 .moverLoguitos img {
   width: 60px;
   height: 60px;
@@ -135,11 +205,23 @@
 }
 */
 /*PAGINA RECETAS UNICA IMAGEN
+=======
+/*ESTILO AL MAPA*/
+.bordeMapa {
+  border-radius: 15px;
+}
+.claseGaleria{
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+/*PAGINA RECETAS*/
+>>>>>>> bootstrap
 .recetasCopaleras {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+<<<<<<< HEAD
 }*/
 
 /*flexbox AL MAIN DE LA GALERIA
@@ -255,3 +337,16 @@ textarea{
   }
 }
 */
+=======
+}
+/*ARREGLO DEL TEXTO DE PAG SERVICIOS*/
+.colorTexto{
+  font-family: "Dosis", sans-serif;
+  font-size:larger;
+  color:white;
+  margin-top: 40px;
+  background-color: #ff914d;
+  padding:20px;
+  justify-content: center;
+}
+>>>>>>> bootstrap
