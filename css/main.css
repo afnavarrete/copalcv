@@ -1,74 +1,3 @@
-@charset "UTF-8";
-/*Variables de color del Body*/
-/*Variables de color de las letras*/
-/*el Titulo (debajo del nav) y de los Footers*/
-/*map-get()*/
-/*trabaje en el main de la pagina "servicios"*/
-/*1° declarar el Mapa*/
-/*2° crear el bucle*/
-.parrafoServicios {
-  text-align: center;
-  font-family: "Dosis";
-  color: orangered;
-  font-size: 25px;
-  font-weight: 100; }
-
-/*MIXIN CON PARAMETRO*/
-.fotoUno {
-  width: 250px;
-  height: 300px; }
-
-/*MIXIN SIN PARAMETRO*/
-.mainIndex {
-  display: flex;
-  flex-direction: row;
-  justify-content: center; }
-
-/*del INDEX*/
-/*foto + parrafo del main*/
-@media screen and (max-width: 768px) {
-  .mainIndex {
-    flex-direction: column; }
-  .parrafoUno {
-    flex-direction: column;
-    margin-left: 10px; }
-  .fotoUno {
-    flex-direction: column;
-    margin-left: 30px; }
-  .redondo {
-    height: 150px;
-    border-radius: 150px; } }
-
-/*----------------------------------------------------------*/
-/*de SERVICIOS*/
-@media screen and (max-width: 768px) {
-  .mainServicios {
-    flex-direction: column; }
-  .parrafoServicios {
-    font-family: "Dosis", sans-serif;
-    color: orangered;
-    font-size: 25px;
-    margin-left: 10px; } }
-
-/*----------------------------------------------------------*/
-/*de GALERIA*/
-@media screen and (max-width: 768px) {
-  .flexgaleriaUno {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around; } }
-
-/*----------------------------------------------------------*/
-/*de CONTACTOS*/
-@media screen and (max-width: 768px) {
-  .dondeEstamos1 {
-    flex-direction: column;
-    margin-left: 5px;
-    width: 300px;
-    height: 250px;
-    border: none;
-    padding: 0px; } }
-
 /*ACA ESTAN LOS ESTILOS QUE SE COMPARTEN EN TODAS LAS PAGINAS*/
 /*cambio de color del nav y body*/
 .bg-durazno {
@@ -94,169 +23,72 @@
   --bs-navbar-brand-hover-color: #ff914d;
   --bs-navbar-toggler-border-color: #ff914d; }
 
-/*TITULOS DEBAJO DEL NAV DE TODAS LAS PAGINAS con extend*/
+/*TITULOS DEBAJO DEL NAV DE TODAS LAS PAGINAS */
 .horarioCopal {
-  font-size: 30px;
-  margin-top: 0px; }
-
-/*TODOS LOS FOOTER*/
-/*texto arriba del boton de whatsapp*/
-.textoEncarga, .horarioCopal, .moverLoguitos {
   font-family: "Dosis", sans-serif;
   text-align: center;
-  font-size: 40px;
-  font-weight: 100;
   color: white;
+  font-weight: 100;
+  font-size: 30px;
   background-color: #ff914d;
-  border-radius: 10px;
-  margin-top: 20px; }
-
-/*el logo de whatsapp*/
-.logoWhatsapp {
-  width: 60px;
-  height: 60px;
   border-radius: 10px; }
 
-/*Nesting del footer (instagram y facebook) y acoplo Extend*/
-.moverLoguitos {
+/*TEXTO ARRIBA DE REDES SOCIALES EN LAS 5 PAGINAS*/
+.colorWsp {
+  font-family: "Dosis", sans-serif;
+  text-align: center;
+  color: white;
+  font-weight: 100;
   font-size: 30px;
-  background-color: #f4c553;
-  margin-top: 0px; }
-  .moverLoguitos img {
-    width: 60px;
-    height: 60px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    padding: 10px;
-    border-radius: 5px; }
+  background-color: #ff914d;
+  border-radius: 100px; }
 
-/*ACA VA LO EXCLUSIVO DEL INDEX"
-/*parrafo del index*/
-.parrafoUno {
-  display: flex;
-  flex-direction: row;
+.iconWsp {
+  border-radius: 20px; }
+
+/*TEXTO DE LAS CARDS DEL INDEX*/
+.card-text {
+  font-family: "Dosis", sans-serif;
+  font-size: large;
+  color: #ff914d;
+  margin-top: 40px; }
+
+.card-body {
+  background-color: #f8e4b0;
+  color: #ff914d; }
+
+/*ARREGLO DEL TEXTO DE PAG SERVICIOS*/
+.colorTexto {
+  font-family: "Dosis", sans-serif;
+  font-size: larger;
+  color: white;
+  margin-top: 40px;
+  background-color: #ff914d;
+  padding: 20px;
+  justify-content: center; }
+
+  /*ESTA CLASE ESTA EN LAS CARD DE LA GALERIA*/
+.claseFormu {
+  font-family: "Dosis", sans-serif;
+  color: #ff914d;
+  font-weight: 100;
+  font-size: 30px; }
+/*esta clase esta en el main de galeria*/
+.claseGaleria {
+  margin-top: 80px;
+  margin-bottom: 80px; }
+
+/*CAMBIOS EN EL BOTON ENVIAR DEL FORMULARIO DE CONTACTO*/
+.botonEnviar {
+  background-color: #ff914d;
+  color: white;
+  border-color: #ff914d;
+  border-radius: 10px;
   font-family: "Dosis", sans-serif;
   font-size: 25px;
-  align-items: center;
-  color: orangered;
-  font-weight: 100; }
+  margin-top: 50px;
+  margin-bottom: 20px; }
 
-/*Imagen del index*/
-.fotoUno {
-  display: flex;
-  flex-direction: row;
-  justify-content: center; }
-
-/*LA PAGINA SERVICIOS*/
-/*main*/
-.mainServicios {
-  display: flex;
-  flex-direction: row;
-  justify-content: center; }
-
-/*PAGINA RECETAS*/
-/*unica imagen porque no subi recetas aun*/
-.recetasCopaleras {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center; }
-
-/*PAGINA GALERIA*/
-/*flexbox al main*/
-.flexgaleriaUno {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around; }
-
-.imagenUno,
-.imagenDos,
-.imagenTres {
-  height: 500px;
-  width: 350px;
-  padding: 20px;
-  border: dashed 3px #8cc85a; }
-
-/*PAGINA CONTACTOS*/
-/*formulario*/
-.formularioContacto {
-  font-family: "Dosis", sans-serif;
-  font-weight: 100;
-  color: orangered;
-  margin: 30px;
-  font-size: 20px; }
-
-/*ARREGLO DE CADA UNO DE LOS BOTONES DEL FORMULARIO*/
-.nombresito input {
-  background-color: #f8e4b0;
-  color: orangered;
-  font-size: 15px;
-  font-weight: 100;
-  margin-left: 5px; }
-
-.telefonito input {
-  background-color: #f8e4b0;
-  color: orangered;
-  font-size: 15px;
-  font-weight: 100;
-  margin-left: 2px; }
-
-.correito input {
-  background-color: #f8e4b0;
-  color: orangered;
-  font-size: 15px;
-  font-weight: 100;
-  margin-left: 15px; }
-
-/*ESTO ES PARA EL RECUADRO DE MENSAJES*/
-textarea {
-  background-color: #f8e4b0;
-  color: orangered;
-  font-weight: 100; }
-
-.mensajito {
-  display: flex;
-  font-family: "Dosis", sans-serif;
-  font-weight: 100;
-  color: orangered;
-  margin-left: 2px;
-  font-size: 20px; }
-
-/*botones desplegables del "lugar donde recibo mi vianda"*/
-.arregloFormulario {
-  font-family: "Dosis", sans-serif;
-  font-size: 15px;
-  color: white;
-  width: 80px;
-  height: 50px;
-  border-radius: 10px;
-  border-color: orangered;
-  background-color: #8cc85a; }
-
-/*botones de "JS, ENVIAR, BORRAR"*/
-.botones input {
-  font-family: "Dosis", sans-serif;
-  font-size: 15px;
-  color: white;
-  width: 80px;
-  height: 50px;
-  border-radius: 10px;
-  border-color: #8cc85a;
-  background-color: #8cc85a; }
-
-/*googlemap*/
-.dondeEstamos {
-  font-family: "Dosis", sans-serif;
-  text-align: center;
-  color: white;
-  font-weight: 100;
-  font-size: 30px;
-  background-color: #ff914d;
-  border-radius: 10px; }
-
-.dondeEstamos1 {
-  display: flex;
-  flex-direction: row;
-  margin-left: 30px;
-  border: dashed 3px #ff914d;
-  padding: 30px; }
+/*ESTILO AL MAPA*/
+.bordeMapa {
+  border-radius: 15px; }

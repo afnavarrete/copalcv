@@ -1,18 +1,12 @@
-/*ACA VA LO EXCLUSIVO DEL INDEX"
-/*parrafo del index*/
-.parrafoUno {
-    display: flex;
-    flex-direction: row;
+/*TEXTO DE LAS CARDS DEL INDEX*/
+.card-text {
     font-family: "Dosis", sans-serif;
-    font-size: 25px;
-    align-items: center;
-    color: orangered;
-    font-weight: 100;
+    font-size: large;
+    color: #ff914d;
+    margin-top: 40px;
 }
 
-/*Imagen del index*/
-.fotoUno {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+.card-body {
+    background-color: #f8e4b0;
+    color: #ff914d;
 }

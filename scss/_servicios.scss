@@ -1,9 +1,10 @@
-/*LA PAGINA SERVICIOS*/
-
-/*main*/
-.mainServicios {
-    display: flex;
-    flex-direction: row;
+/*ARREGLO DEL TEXTO DE PAG SERVICIOS*/
+.colorTexto{
+    font-family: "Dosis", sans-serif;
+    font-size:larger;
+    color:white;
+    margin-top: 40px;
+    background-color: #ff914d;
+    padding:20px;
     justify-content: center;
 }
-

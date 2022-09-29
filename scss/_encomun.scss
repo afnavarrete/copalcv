@@ -1,6 +1,4 @@
 /*ACA ESTAN LOS ESTILOS QUE SE COMPARTEN EN TODAS LAS PAGINAS*/
-
-
 /*cambio de color del nav y body*/
 .bg-durazno {
     background-color: $colorPrincipal;
@@ -29,46 +27,28 @@
     --bs-navbar-toggler-border-color: #ff914d;
 }
 
-/*TITULOS DEBAJO DEL NAV DE TODAS LAS PAGINAS con extend*/
+/*TITULOS DEBAJO DEL NAV DE TODAS LAS PAGINAS */
 .horarioCopal {
-    @extend .textoEncarga;
-    font-size: 30px;
-    margin-top: 0px;
-}
-
-/*TODOS LOS FOOTER*/
-/*texto arriba del boton de whatsapp*/
-.textoEncarga {
     font-family: "Dosis", sans-serif;
     text-align: center;
-    font-size: 40px;
+    color: white;
     font-weight: 100;
-    color: $letraPrincipal;
+    font-size: 30px;
     background-color: #ff914d;
     border-radius: 10px;
-    margin-top: 20px;
 }
 
-/*el logo de whatsapp*/
-.logoWhatsapp {
-    width: 60px;
-    height: 60px;
-    border-radius: 10px;
-}
-
-/*Nesting del footer (instagram y facebook) y acoplo Extend*/
-.moverLoguitos {
-    @extend .textoEncarga;
+/*TEXTO ARRIBA DE REDES SOCIALES EN LAS 5 PAGINAS*/
+.colorWsp {
+    font-family: "Dosis", sans-serif;
+    text-align: center;
+    color: white;
+    font-weight: 100;
     font-size: 30px;
-    background-color: #f4c553;
-    margin-top: 0px;
+    background-color: #ff914d;
+    border-radius: 100px;
+}
 
-    img {
-        width: 60px;
-        height: 60px;
-        margin-top: 5px;
-        margin-bottom: 5px;
-        padding: 10px;
-        border-radius: 5px;
-    }
+.iconWsp {
+    border-radius: 20px;
 }

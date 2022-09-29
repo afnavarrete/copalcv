@@ -1,17 +1,10 @@
-/*PAGINA GALERIA*/
-
-/*flexbox al main*/
-.flexgaleriaUno {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+.claseFormu {
+    font-family: "Dosis", sans-serif;
+    color: #ff914d;
+    font-weight: 100;
+    font-size: 30px;
 }
-
-.imagenUno,
-.imagenDos,
-.imagenTres {
-    height: 500px;
-    width: 350px;
-    padding: 20px;
-    border: dashed 3px #8cc85a;
+.claseGaleria{
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
