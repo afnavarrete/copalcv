@@ -23,18 +23,18 @@
     --bs-navbar-active-color: #ff914d;
     --bs-navbar-brand-font-size: 1.25rem;
     --bs-navbar-brand-color: #ff914d;
-    --bs-navbar-brand-hover-color: #ff914d;
-    --bs-navbar-toggler-border-color: #ff914d;
+    --bs-navbar-brand-hover-color:#ff914d;
+    --bs-navbar-toggler-border-color:#ff914d;
 }
 
 /*TITULOS DEBAJO DEL NAV DE TODAS LAS PAGINAS */
 .horarioCopal {
     font-family: "Dosis", sans-serif;
     text-align: center;
-    color: white;
+    color:$letraPrincipal;
     font-weight: 100;
     font-size: 30px;
-    background-color: #ff914d;
+    background-color:$colorNaranja;
     border-radius: 10px;
 }
 
@@ -42,10 +42,10 @@
 .colorWsp {
     font-family: "Dosis", sans-serif;
     text-align: center;
-    color: white;
+    color: $letraPrincipal;
     font-weight: 100;
     font-size: 30px;
-    background-color: #ff914d;
+    background-color: $colorNaranja;
     border-radius: 100px;
 }
 

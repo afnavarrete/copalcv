@@ -1,8 +1,8 @@
 /*CAMBIOS EN EL BOTON ENVIAR DEL FORMULARIO DE CONTACTO*/
 .botonEnviar {
-    background-color: #ff914d;
-    color: white;
-    border-color: #ff914d;
+    background-color:$colorNaranja;
+    color: $letraPrincipal;
+    border-color: $colorNaranja;
     border-radius: 10px;
     font-family: "Dosis", sans-serif;
     font-size: 25px;

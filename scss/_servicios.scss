@@ -2,9 +2,9 @@
 .colorTexto{
     font-family: "Dosis", sans-serif;
     font-size:larger;
-    color:white;
+    color:$letraPrincipal;
     margin-top: 40px;
-    background-color: #ff914d;
+    background-color: $colorNaranja;
     padding:20px;
     justify-content: center;
 }

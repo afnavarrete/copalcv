@@ -1,49 +1,10 @@
 /*Variables de color del Body*/
 $colorPrincipal: #f8e4b0;
 
-
 /*Variables de color de las letras*/
 /*el Titulo (debajo del nav) y de los Footers*/
 $letraPrincipal: white;
 
-/*map-get()*/
 
-/*trabaje en el main de la pagina "servicios"*/
-
-/*1° declarar el Mapa*/
-$servicio: (
-    alineacion: center,
-    familia: "Dosis",
-    color: orangered,
-    fuente: 25px,
-    pesodefuente: 100
-);
-
-/*2° crear el bucle*/
-.parrafoServicios {
-    text-align: map-get($servicio, alineacion);
-    font-family: map-get($servicio, familia);
-    color: map-get($servicio, color);
-    font-size: map-get($servicio, fuente);
-    font-weight: map-get($servicio, pesodefuente);
-}
-
-/*MIXIN CON PARAMETRO*/
-@mixin sizes ($ancho, $alto) {
-    width: $ancho;
-    height: $alto;
-}
-
-.fotoUno {
-    @include sizes(250px, 300px)
-}
-
-/*MIXIN SIN PARAMETRO*/
-@mixin flex-row-center {
-    display: flex;
-    flex-direction: row;
-    justify-content: center
-}
-.mainIndex{
-    @include flex-row-center;
-}
+/*Variable color naranja*/
+$colorNaranja:#ff914d;

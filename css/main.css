@@ -1,3 +1,7 @@
+/*Variables de color del Body*/
+/*Variables de color de las letras*/
+/*el Titulo (debajo del nav) y de los Footers*/
+/*Variable color naranja*/
 /*ACA ESTAN LOS ESTILOS QUE SE COMPARTEN EN TODAS LAS PAGINAS*/
 /*cambio de color del nav y body*/
 .bg-durazno {
@@ -20,8 +24,8 @@
   --bs-navbar-active-color: #ff914d;
   --bs-navbar-brand-font-size: 1.25rem;
   --bs-navbar-brand-color: #ff914d;
-  --bs-navbar-brand-hover-color: #ff914d;
-  --bs-navbar-toggler-border-color: #ff914d; }
+  --bs-navbar-brand-hover-color:#ff914d;
+  --bs-navbar-toggler-border-color:#ff914d; }
 
 /*TITULOS DEBAJO DEL NAV DE TODAS LAS PAGINAS */
 .horarioCopal {
@@ -67,13 +71,12 @@
   padding: 20px;
   justify-content: center; }
 
-  /*ESTA CLASE ESTA EN LAS CARD DE LA GALERIA*/
 .claseFormu {
   font-family: "Dosis", sans-serif;
   color: #ff914d;
   font-weight: 100;
   font-size: 30px; }
-/*esta clase esta en el main de galeria*/
+
 .claseGaleria {
   margin-top: 80px;
   margin-bottom: 80px; }
