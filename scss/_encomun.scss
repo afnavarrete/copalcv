@@ -34,21 +34,25 @@
     color:$letraPrincipal;
     font-weight: 100;
     font-size: 30px;
-    background-color:$colorNaranja;
+    background-color:$estaciones;
     border-radius: 10px;
 }
-
-/*TEXTO ARRIBA DE REDES SOCIALES EN LAS 5 PAGINAS*/
-.colorWsp {
-    font-family: "Dosis", sans-serif;
-    text-align: center;
-    color: $letraPrincipal;
-    font-weight: 100;
-    font-size: 30px;
-    background-color: $colorNaranja;
-    border-radius: 100px;
-}
-
 .iconWsp {
     border-radius: 20px;
 }
+/*TEXTO ARRIBA DE REDES SOCIALES EN LAS 5 PAGINAS con map get*/
+.colorWsp {
+    font-family: map-get($design,familia );
+    text-align: map-get($design, alineacion );
+    font-size: map-get($design, tamanoletra);
+    color:map-get($design,colorletra );
+    font-weight: map-get($design, peso );
+    background-color:map-get($design, colordefondo );
+    border-radius:100px ;
+}
+
+
+
+
+
+

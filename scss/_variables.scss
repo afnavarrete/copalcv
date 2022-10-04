@@ -8,3 +8,53 @@ $letraPrincipal: white;
 
 /*Variable color naranja*/
 $colorNaranja:#ff914d;
+
+
+/*Condicionales*/
+$estaciones: $colorNaranja;
+
+
+.horarioCopal{
+    @if $estaciones == $colorNaranja{
+        background-color:#ff914d  ;
+    }@else if $estaciones == invierno{
+        background-color: #c23331;
+    }@else if $estaciones== otono{
+        background-color: #0f7e8f ;
+    }
+}
+
+/*map get ()*/
+/*declara el map*/
+$design: (
+    familia: "Dosis",
+    alineacion: center,
+    tamanoletra: 30px,
+    colorletra: white,
+    colordefondo: #ff914d,
+    peso: 100
+);
+
+/*EXTEND*/
+/*ARREGLO DEL TEXTO DE PAG SERVICIOS*/
+.colorTexto{
+    font-family: "Dosis", sans-serif;
+    font-size:larger;
+    color:$colorNaranja;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.claseFormu{
+    @extend .colorTexto;
+    font-size: medium;
+
+}
+/*mixin con parametro*/
+@mixin margin ($top, $bottom) {
+    margin-top: $top;
+    margin-bottom: $bottom;
+}
+.claseGaleria{
+    @include margin(80px ,80px )
+}

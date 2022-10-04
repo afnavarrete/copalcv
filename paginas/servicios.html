@@ -4,82 +4,58 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Servicio</title>
+    <title>Servicio de viandas saludables Copal</title>
+    <!--KEYWORDS-->
+    <meta
+      name="keywords"
+      content="vegetariano, vida saludable, viandas, menu semanal, envio gratuito de viandas "
+    />
+    <!--META DESCRIPTION-->
+    <meta
+      name="description"
+      content="Nuestro principal servicio es simplificar tu alimentación , por eso contamos con Envio Gratuito a toda la ciudad de Sunchales"
+    />
+    <!--FAVICON-->
     <link
       rel="shortcut icon"
       href="../multimedia/STICKERS-01.png"
       type="image/x-icon"
     />
+    <!--CSS-->
     <link rel="stylesheet" href="../css/main.css" />
     <link rel="stylesheet" href="../css/estilos.css" />
+    <!--FUENTES-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;500;800&display=swap"
       rel="stylesheet"
     />
+    <!--ANIMACIONES-->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
-    <!--BOOTSTRAP CSS only 
+    <!--BOOTSTRAP CSS only-->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
       crossorigin="anonymous"
-    />-->
+    />
   </head>
+  <!--cambie la clase bg-light por bg-durazno para pasar por encima del !important que tenia la clase anterior-->
   <body class="bg-durazno">
     <header>
-      <nav class="menuPrincipal">
-        <img
-          class="logonaranjoCopal"
-          src="../multimedia/STICKERS-01.png"
-          alt=""
-        />
-        <ul class="flexboxCaja">
-          <li><a class="colorHome" href="../index.html">Home</a></li>
-          <li><a class="colorHome" href="servicios.html">Servicios</a></li>
-          <li>
-            <a class="colorHome" href="../paginas/recetas.html">Recetas</a>
-          </li>
-          <li>
-            <a class="colorHome" href="../paginas/galeria.html">Galeria</a>
-          </li>
-          <li>
-            <a class="colorHome" href="../paginas/contacto.html">Contacto</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-      <h2 class="horarioCopal">
-        Servicio de Viandas con Envio a Domicilio GRATIS!
-      </h2>
-      <div class="imagenTexto">
-        <img class="animate__animated  animate__backInLeft" src="../multimedia/delivery.jpg" alt="moto" />
-        <p class="texto" >
-          Contamos con envio gratuito a toda la ciudad de 11 a 13hs.
-          <br />
-          El menú lo enviamos por WhatsApp los días domingos, podes comprar toda
-          <br />
-          la semana (con descuento) o el menú del día. <br> Si algun ingrediente no
-          es de tu agrado consultanos,podemos cambiarlo. <br> No realizamos menú sin
-          tacc.
-          <br />
-          Podes abonar en efectivo o por transferencia.
-        </p>
-      </div>
-
-      <!--cambie la clase bg-light por bg-durazno para pasar por encima del !important que tenia la clase anterior
       <nav class="navbar navbar-expand-lg bg-durazno">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"></a>
-          <img
-            class="redondo animate__animated animate__tada"
-            src="../multimedia/logo copal bst 160x160px.png"
-            alt=""
-          />
+          <a class="navbar-brand">
+            <img
+              class="redondo animate__animated animate__tada"
+              src="../multimedia/logo copal bst 160x160px.png"
+              alt=""
+            />
+          </a>
           <button
             class="navbar-toggler"
             type="button"
@@ -108,7 +84,9 @@
                 <a class="nav-link" href="servicios.html">Servicios</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="../paginas/recetas.html">Recetas</a>
+                <a class="nav-link" href="../paginas/lapasteleria.html"
+                  >La Pasteleria</a
+                >
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="../paginas/galeria.html">Galeria</a>
@@ -120,24 +98,28 @@
           </div>
         </div>
       </nav>
-      <h1 class="horarioCopal">
-        Servicio de Viandas con Envio a Domicilio GRATIS!
-      </h1>
     </header>
-    <!--AGREGUE IMAGEN + TEXTO
-    <main class="container-fluid col-md-4">
-    <img src="../multimedia/delivery.jpg" class="img-fluid " alt="...">
-    <p class="colorTexto">
-      Contamos con envio gratuito a toda la ciudad de 11 a 13hs. <br />
-      El menú lo enviamos por WhatsApp los días domingos, podes comprar
-      toda la semana (con descuento) o el menú del día. <br />
-      Si algun ingrediente no es de tu agrado consultanos,podemos
-      cambiarlo. <br />
-      Podes abonar en efectivo o por transferencia. <br />
-      No realizamos menú sin tacc.</p>
-
+    <h1 class="horarioCopal">
+      Servicio de Viandas con Envio a Domicilio GRATIS!
+    </h1>
+    <main>
+      <div class="text-center">
+        <img
+          src="../multimedia/delivery.jpg"
+          class="rounded animate__animated animate__backInLeft"
+          alt="..."
+        />
+      </div>
+      <div class="colorTexto text-center">
+        <p>Contamos con envío gratuito a toda la ciudad de 11 a 13hs.</p>
+        <p>El menú lo enviamos por WhatsApp los días domingos.</p>
+        <p>Podes comprar toda la semana (con descuento) o el menú del día.</p>
+        <p>
+          Si algún ingrediente no es de tu agrado consultanos,podemos cambiarlo.
+        </p>
+        <p>Nuestros medios de pago: Efectivo o Transferencia.</p>
+      </div>
     </main>
-  -->
     <footer>
       <div class="container-fluid">
         <div class="row">
@@ -161,6 +143,7 @@
               >
                 <img class="iconWsp" src="../multimedia/facebook.png" alt=""
               /></a>
+              <p class="colorTexto">Desarrollo Web: Antonela Foresti</p>
             </div>
           </div>
         </div>

@@ -2,6 +2,29 @@
 /*Variables de color de las letras*/
 /*el Titulo (debajo del nav) y de los Footers*/
 /*Variable color naranja*/
+/*Condicionales*/
+.horarioCopal {
+  background-color: #ff914d; }
+
+/*map get ()*/
+/*declara el map*/
+/*EXTEND*/
+/*ARREGLO DEL TEXTO DE PAG SERVICIOS*/
+.colorTexto, .claseFormu {
+  font-family: "Dosis", sans-serif;
+  font-size: larger;
+  color: #ff914d;
+  margin-bottom: 20px;
+  justify-content: center; }
+
+.claseFormu {
+  font-size: medium; }
+
+/*mixin con parametro*/
+.claseGaleria {
+  margin-top: 80px;
+  margin-bottom: 80px; }
+
 /*ACA ESTAN LOS ESTILOS QUE SE COMPARTEN EN TODAS LAS PAGINAS*/
 /*cambio de color del nav y body*/
 .bg-durazno {
@@ -37,18 +60,18 @@
   background-color: #ff914d;
   border-radius: 10px; }
 
-/*TEXTO ARRIBA DE REDES SOCIALES EN LAS 5 PAGINAS*/
-.colorWsp {
-  font-family: "Dosis", sans-serif;
-  text-align: center;
-  color: white;
-  font-weight: 100;
-  font-size: 30px;
-  background-color: #ff914d;
-  border-radius: 100px; }
-
 .iconWsp {
   border-radius: 20px; }
+
+/*TEXTO ARRIBA DE REDES SOCIALES EN LAS 5 PAGINAS con map get*/
+.colorWsp {
+  font-family: "Dosis";
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  font-weight: 100;
+  background-color: #ff914d;
+  border-radius: 100px; }
 
 /*TEXTO DE LAS CARDS DEL INDEX*/
 .card-text {
@@ -61,25 +84,11 @@
   background-color: #f8e4b0;
   color: #ff914d; }
 
-/*ARREGLO DEL TEXTO DE PAG SERVICIOS*/
-.colorTexto {
-  font-family: "Dosis", sans-serif;
-  font-size: larger;
-  color: white;
-  margin-top: 40px;
-  background-color: #ff914d;
-  padding: 20px;
-  justify-content: center; }
-
 .claseFormu {
   font-family: "Dosis", sans-serif;
   color: #ff914d;
   font-weight: 100;
   font-size: 30px; }
-
-.claseGaleria {
-  margin-top: 80px;
-  margin-bottom: 80px; }
 
 /*CAMBIOS EN EL BOTON ENVIAR DEL FORMULARIO DE CONTACTO*/
 .botonEnviar {
