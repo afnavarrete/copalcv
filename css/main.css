@@ -61,7 +61,9 @@
   border-radius: 10px; }
 
 .iconWsp {
-  border-radius: 20px; }
+  width: 55px;
+  height: 55px;
+  border-radius: 10px; }
 
 /*TEXTO ARRIBA DE REDES SOCIALES EN LAS 5 PAGINAS con map get*/
 .colorWsp {
@@ -72,6 +74,15 @@
   font-weight: 100;
   background-color: #ff914d;
   border-radius: 100px; }
+
+/*Margenes de texto de Servicios y La pasteleria*/
+.margenesTextos {
+  margin-left: 20px;
+  margin-right: 20px; }
+
+/*Margenes entre imagenes: Index y Galeria*/
+.margenesFotos {
+  margin-bottom: 50px; }
 
 /*TEXTO DE LAS CARDS DEL INDEX*/
 .card-text {
@@ -86,9 +97,7 @@
 
 .claseFormu {
   font-family: "Dosis", sans-serif;
-  color: #ff914d;
-  font-weight: 100;
-  font-size: 30px; }
+  color: #ff914d; }
 
 /*CAMBIOS EN EL BOTON ENVIAR DEL FORMULARIO DE CONTACTO*/
 .botonEnviar {
@@ -98,7 +107,7 @@
   border-radius: 10px;
   font-family: "Dosis", sans-serif;
   font-size: 25px;
-  margin-top: 50px;
+  margin-top: 35px;
   margin-bottom: 20px; }
 
 /*ESTILO AL MAPA*/

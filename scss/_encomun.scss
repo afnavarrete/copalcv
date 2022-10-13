@@ -38,7 +38,9 @@
     border-radius: 10px;
 }
 .iconWsp {
-    border-radius: 20px;
+    width: 55px;
+    height:55px;
+    border-radius: 10px;
 }
 /*TEXTO ARRIBA DE REDES SOCIALES EN LAS 5 PAGINAS con map get*/
 .colorWsp {
@@ -51,8 +53,15 @@
     border-radius:100px ;
 }
 
+/*Margenes de texto de Servicios y La pasteleria*/
+.margenesTextos{
+    margin-left: 20px;
+    margin-right: 20px;
+}
 
-
-
+/*Margenes entre imagenes: Index y Galeria*/
+.margenesFotos{
+    margin-bottom:50px;
+}
 
 
